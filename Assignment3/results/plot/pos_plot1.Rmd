@@ -1,0 +1,137 @@
+---
+title: "pos_plot1"
+output: html_document
+---
+
+```{r}
+plot_type <- function(data_dt,type,title,xaxis){
+  size <- c("64x64","512x512","1024x1024","2048x2048","4096x4096","8192x8192")
+  proc <- c("8","16","32","64")
+  
+  if(xaxis == "Size")
+  {
+    p <- ggplot(data_dt[Type == type,],aes(x=factor(Data,levels = unique(Data)),y=Time,group = Node,colour = Node)) + 
+      geom_point() + geom_line(stat = "identity",size =1) + facet_wrap(~factor(Processes,levels = unique(Processes))) +
+      labs(x = "Size of Input", y = "Time (s)") + 
+      theme(axis.text.x = element_text(angle = 45, hjust = 1),legend.title = element_blank()) + 
+      scale_y_continuous(breaks = seq(min(data_dt[Type == type,]$Time),max(data_dt[Type == type,]$Time) + 5,by=5)) +
+      ggtitle(title)
+    
+    for(i in proc)
+    {
+      print(ggplot(data_dt[Type == type & Processes == i,],aes(x=factor(Data,levels = unique(Data)),y=Time,group = Node,colour = Node)) + 
+              geom_point() + geom_line(stat = "identity",size =1) +
+              labs(x = "Size of Input", y = "Time (s)") + 
+              theme(axis.text.x = element_text(angle = 45, hjust = 1),legend.title = element_blank()) + 
+              ggtitle(paste0(title," ,#Processes - ",i)))
+    }
+  }
+  else if(xaxis == "Processes")
+  {
+    p <- ggplot(data_dt[Type == type,],aes(x=factor(Processes,levels = unique(Processes)),y=Time,group = Node,colour = Node)) + 
+      geom_point() + geom_line(stat = "identity",size =1) + facet_wrap(~factor(Data,levels = unique(Data))) +
+      labs(x = "#Processes", y = "Time (s)") + 
+      theme(axis.text.x = element_text(angle = 45, hjust = 1),legend.title = element_blank()) + 
+      scale_y_continuous(breaks = seq(min(data_dt[Type == type,]$Time),max(data_dt[Type == type,]$Time) + 5,by=5)) +
+      ggtitle(title)
+    
+    for(i in size)
+    {
+      print(ggplot(data_dt[Type == type & Data == i,],aes(x=factor(Processes,levels = unique(Processes)),y=Time,group = Node,colour = Node)) + 
+              geom_point() + geom_line(stat = "identity",size =1) +
+              labs(x = "#Processes", y = "Time (s)") + 
+              theme(axis.text.x = element_text(angle = 45, hjust = 1),legend.title = element_blank()) + 
+              ggtitle(paste0(title," ,Size of Input - ",i)))
+    }
+  }
+  
+  
+  return(p)
+}
+
+```
+
+```{r}
+library(readxl)
+library(data.table)
+library(tidyr)
+library(ggplot2)
+
+hw_baseline <- read_excel(paste0("~/Desktop/TUM WS18/Programming of Supercomputer/Assignment3/results/plot/hw_","baseline",".xlsx"),col_names = T)
+sb_baseline <- read_excel(paste0("~/Desktop/TUM WS18/Programming of Supercomputer/Assignment3/results/plot/sb_","baseline",".xlsx"),col_names = T)
+hw_oneside <- read_excel(paste0("~/Desktop/TUM WS18/Programming of Supercomputer/Assignment3/results/plot/hw_","oneside",".xlsx"),col_names = T)
+sb_oneside <- read_excel(paste0("~/Desktop/TUM WS18/Programming of Supercomputer/Assignment3/results/plot/sb_","oneside",".xlsx"),col_names = T)
+hw_nonblock <- read_excel(paste0("~/Desktop/TUM WS18/Programming of Supercomputer/Assignment3/results/plot/hw_","nonblock",".xlsx"),col_names = T)
+sb_nonblock <- read_excel(paste0("~/Desktop/TUM WS18/Programming of Supercomputer/Assignment3/results/plot/sb_","nonblock",".xlsx"),col_names = T)
+
+hw_tidy <- gather(hw_baseline,key = "Processes",value = "Time",-c("Data","Type"))
+sb_tidy <- gather(sb_baseline,key = "Processes",value = "Time",-c("Data","Type"))
+hw_ntidy <- gather(hw_nonblock,key = "Processes",value = "Time",-c("Data","Type"))
+sb_ntidy <- gather(sb_nonblock,key = "Processes",value = "Time",-c("Data","Type"))
+hw_otidy <- gather(hw_oneside,key = "Processes",value = "Time",-c("Data","Type"))
+sb_otidy <- gather(sb_oneside,key = "Processes",value = "Time",-c("Data","Type"))
+
+hw_b_dt <- as.data.table(hw_tidy)
+sb_b_dt <- as.data.table(sb_tidy)
+hw_n_dt <- as.data.table(hw_ntidy)
+sb_n_dt <- as.data.table(sb_ntidy)
+hw_o_dt <- as.data.table(hw_otidy)
+sb_o_dt <- as.data.table(sb_otidy)
+
+hw_b_dt[,"Time"] <- round(hw_b_dt$Time,2)
+sb_b_dt[,"Time"] <- round(sb_b_dt$Time,2)
+hw_n_dt[,"Time"] <- round(hw_n_dt$Time,2)
+sb_n_dt[,"Time"] <- round(sb_n_dt$Time,2)
+hw_o_dt[,"Time"] <- round(hw_o_dt$Time,2)
+sb_o_dt[,"Time"] <- round(sb_o_dt$Time,2)
+
+
+hw_b_dt[,Node := "Haswell @Baseline"]
+sb_b_dt[,Node := "Sandy Bridge @Baseline"]
+hw_n_dt[,Node := "Haswell @Non-Blocking"]
+sb_n_dt[,Node := "Sandy Bridge @Non-Blocking"]
+hw_o_dt[,Node := "Haswell @Oneside"]
+sb_o_dt[,Node := "Sandy Bridge @Oneside"]
+
+
+data_dt1 <- rbind(hw_b_dt,sb_b_dt,hw_n_dt,sb_n_dt)
+data_dt2 <- rbind(hw_b_dt,sb_b_dt,hw_o_dt,sb_o_dt)
+data_dt3 <- rbind(hw_n_dt,sb_n_dt,hw_o_dt,sb_o_dt)
+
+plot_type(data_dt1,"IO","Measured IO (Baseline vs Non-Blocking)","Size")
+plot_type(data_dt1,"Setup","Measured Setup (Baseline vs Non-Blocking)","Size")
+plot_type(data_dt1,"Compute","Measured Compute (Baseline vs Non-Blocking)","Size")
+plot_type(data_dt1,"MPI","Measured MPI (Baseline vs Non-Blocking)","Size")
+plot_type(data_dt1,"Total","Measured Total (Baseline vs Non-Blocking)","Size")
+
+plot_type(data_dt2,"IO","Measured IO (Baseline vs Oneside)","Size")
+plot_type(data_dt2,"Setup","Measured Setup (Baseline vs Oneside)","Size")
+plot_type(data_dt2,"Compute","Measured Compute (Baseline vs Oneside)","Size")
+plot_type(data_dt2,"MPI","Measured MPI (Baseline vs Oneside)","Size")
+plot_type(data_dt2,"Total","Measured Total (Baseline vs Oneside)","Size")
+
+plot_type(data_dt1,"IO","Measured IO (Baseline vs Non-Blocking)","Processes")
+plot_type(data_dt1,"Setup","Measured Setup (Baseline vs Non-Blocking)","Processes")
+plot_type(data_dt1,"Compute","Measured Compute (Baseline vs Non-Blocking)","Processes")
+plot_type(data_dt1,"MPI","Measured MPI (Baseline vs Non-Blocking)","Processes")
+plot_type(data_dt1,"Total","Measured Total (Baseline vs Non-Blocking)","Processes")
+
+plot_type(data_dt2,"IO","Measured IO (Baseline vs Oneside)","Processes")
+plot_type(data_dt2,"Setup","Measured Setup (Baseline vs Oneside)","Processes")
+plot_type(data_dt2,"Compute","Measured Compute (Baseline vs Oneside)","Processes")
+plot_type(data_dt2,"MPI","Measured MPI (Baseline vs Oneside)","Processes")
+plot_type(data_dt2,"Total","Measured Total (Baseline vs Oneside)","Processes")
+
+plot_type(data_dt3,"IO","Measured IO (Non-Blocking vs Oneside)","Size")
+plot_type(data_dt3,"Setup","Measured Setup (Non-Blocking vs Oneside)","Size")
+plot_type(data_dt3,"Compute","Measured Compute (Non-Blocking vs Oneside)","Size")
+plot_type(data_dt3,"MPI","Measured MPI (Non-Blocking vs Oneside)","Size")
+plot_type(data_dt3,"Total","Measured Total (Non-Blocking vs Oneside)","Size")
+
+plot_type(data_dt3,"IO","Measured IO (Oneside vs Non-Blocking)","Processes")
+plot_type(data_dt3,"Setup","Measured Setup (Oneside vs Non-Blocking)","Processes")
+plot_type(data_dt3,"Compute","Measured Compute (Oneside vs Non-Blocking)","Processes")
+plot_type(data_dt3,"MPI","Measured MPI (Oneside vs Non-Blocking)","Processes")
+plot_type(data_dt3,"Total","Measured Total (Oneside vs Non-Blocking)","Processes")
+
+```

@@ -1,0 +1,107 @@
+---
+title: "POS_assign3_plots"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r}
+plot_type <- function(data_dt,type,title,xaxis){
+  size <- c("64x64","512x512","1024x1024","2048x2048","4096x4096","8192x8192")
+  proc <- c("8","16","32","64")
+  
+  if(xaxis == "Size")
+  {
+    p <- ggplot(data_dt[Type == type,],aes(x=factor(Data,levels = unique(Data)),y=Time,group = Node,colour = Node)) + 
+      geom_point() + geom_line(stat = "identity",size =1) + facet_wrap(~factor(Processes,levels = unique(Processes))) +
+      labs(x = "Size of Input", y = "Time (s)") + 
+      theme(axis.text.x = element_text(angle = 45, hjust = 1),legend.title = element_blank()) + 
+      scale_y_continuous(breaks = seq(min(data_dt[Type == type,]$Time),max(data_dt[Type == type,]$Time) + 5,by=5)) +
+      ggtitle(title)
+    
+    for(i in proc)
+    {
+      print(ggplot(data_dt[Type == type & Processes == i,],aes(x=factor(Data,levels = unique(Data)),y=Time,group = Node,colour = Node)) + 
+        geom_point() + geom_line(stat = "identity",size =1) +
+        labs(x = "Size of Input", y = "Time (s)") + 
+        theme(axis.text.x = element_text(angle = 45, hjust = 1),legend.title = element_blank()) + 
+        ggtitle(paste0(title," ,#Processes - ",i)))
+    }
+  }
+  else if(xaxis == "Processes")
+  {
+    p <- ggplot(data_dt[Type == type,],aes(x=factor(Processes,levels = unique(Processes)),y=Time,group = Node,colour = Node)) + 
+      geom_point() + geom_line(stat = "identity",size =1) + facet_wrap(~factor(Data,levels = unique(Data))) +
+      labs(x = "#Processes", y = "Time (s)") + 
+      theme(axis.text.x = element_text(angle = 45, hjust = 1),legend.title = element_blank()) + 
+      scale_y_continuous(breaks = seq(min(data_dt[Type == type,]$Time),max(data_dt[Type == type,]$Time) + 5,by=5)) +
+      ggtitle(title)
+    
+    for(i in size)
+    {
+      print(ggplot(data_dt[Type == type & Data == i,],aes(x=factor(Processes,levels = unique(Processes)),y=Time,group = Node,colour = Node)) + 
+              geom_point() + geom_line(stat = "identity",size =1) +
+              labs(x = "#Processes", y = "Time (s)") + 
+              theme(axis.text.x = element_text(angle = 45, hjust = 1),legend.title = element_blank()) + 
+              ggtitle(paste0(title," ,Size of Input - ",i)))
+    }
+  }
+  
+  
+  return(p)
+}
+
+pos_plot <- function(filetype,base_title)
+{
+  library(readxl)
+  library(data.table)
+  library(tidyr)
+  library(ggplot2)
+  
+  hw_baseline <- read_excel(paste0("~/Desktop/TUM WS18/Programming of Supercomputer/Assignment3/results/plot/hw_",filetype,".xlsx"),col_names = T)
+  sb_baseline <- read_excel(paste0("~/Desktop/TUM WS18/Programming of Supercomputer/Assignment3/results/plot/sb_",filetype,".xlsx"),col_names = T)
+  
+  hw_tidy <- gather(hw_baseline,key = "Processes",value = "Time",-c("Data","Type"))
+  sb_tidy <- gather(sb_baseline,key = "Processes",value = "Time",-c("Data","Type"))
+  
+  hw_b_dt <- as.data.table(hw_tidy)
+  sb_b_dt <- as.data.table(sb_tidy)
+  
+  hw_b_dt[,"Time"] <- round(hw_b_dt$Time,2)
+  sb_b_dt[,"Time"] <- round(sb_b_dt$Time,2)
+  
+  hw_b_dt[,Node := "Haswell"]
+  sb_b_dt[,Node := "Sandy Bridge"]
+  
+  data_dt <- rbind(hw_b_dt,sb_b_dt)
+  
+  print(plot_type(data_dt,"IO",paste0("Measured IO - ",base_title),"Size"))
+  print(plot_type(data_dt,"IO",paste0("Measured IO - ",base_title),"Processes"))
+  
+  print(plot_type(data_dt,"Setup",paste0("Measured Setup - ",base_title),"Size"))
+  print(plot_type(data_dt,"Setup",paste0("Measured Setup - ",base_title),"Processes"))
+  
+  print(plot_type(data_dt,"Compute",paste0("Measured Compute - ",base_title),"Size"))
+  print(plot_type(data_dt,"Compute",paste0("Measured Compute - ",base_title),"Processes"))
+  
+  print(plot_type(data_dt,"MPI",paste0("Measured MPI - ",base_title),"Size"))
+  print(plot_type(data_dt,"MPI",paste0("Measured MPI - ",base_title),"Processes"))
+  
+  print(plot_type(data_dt,"Total",paste0("Measured Total - ",base_title),"Size"))
+  print(plot_type(data_dt,"Total",paste0("Measured Total - ",base_title),"Processes"))
+  
+  return(data_dt)
+}
+```
+
+```{r}
+test <- pos_plot("baseline","Baseline")
+```
+
+```{r}
+test <- pos_plot("nonblock","Non-Blocking Communication")
+```
+
+```{r}
+test <- pos_plot("oneside","Oneside Communication")
+```

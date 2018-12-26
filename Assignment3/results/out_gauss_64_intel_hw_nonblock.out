@@ -1,0 +1,858 @@
+
+DISK GROUP QUOTAS for home and project file systems:
+Filesystem                                 Quota     Used Space     Free Space
+/home/hpc/h039y           ($HOME)        102.4GB   59.1GB (58%)   43.3GB (42%)
+/gpfs/work/h039y          ($WORK)        1000.0GB  199.8MB ( 0%)  999.8GB (100%)
+-------------------------------------------------------------------------------
+
+Executing LRZ User Prolog ...
+/lrz/loadl/var/i20r01c01s05/execute/srv23ib.942948.0/job.ll: line 1: i#!/bin/bash: No such file or directory
+Sat Dec 15 16:00:52 CET 2018
+Currently Loaded Modulefiles:
+ 1) admin/1.0      4) intel/17.0   7) userlog/1.0     
+ 2) tempdir/1.0    5) mkl/2017     8) lrz/default     
+ 3) lrztools/1.0   6) poe/1.4      9) mpi.intel/2017  
+Tests starting...
+
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size64x64.mat"
+READ:  RHS      (b) file name: "./ge_data/size64x64.vec"
+WRITE: Solution (x) file name: "./ge_data/size64x64.sol"
+[R06] Times: IO: 0.000000; Setup: 0.004071; Compute: 0.000223; MPI: 0.000199; Total: 0.004294;
+[R07] Times: IO: 0.000000; Setup: 0.004028; Compute: 0.000204; MPI: 0.000180; Total: 0.004233;
+[R02] Times: IO: 0.000000; Setup: 0.004141; Compute: 0.001100; MPI: 0.001084; Total: 0.005241;
+[R03] Times: IO: 0.000000; Setup: 0.004156; Compute: 0.001073; MPI: 0.001055; Total: 0.005230;
+[R04] Times: IO: 0.000000; Setup: 0.004160; Compute: 0.001045; MPI: 0.001025; Total: 0.005205;
+[R05] Times: IO: 0.000000; Setup: 0.004173; Compute: 0.001015; MPI: 0.000993; Total: 0.005188;
+[R01] Times: IO: 0.000000; Setup: 0.004236; Compute: 0.001119; MPI: 0.001106; Total: 0.005355;
+[R00] Times: IO: 0.093352; Setup: 0.000280; Compute: 0.001065; MPI: 0.001053; Total: 0.094723;
+Sat Dec 15 16:00:54 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size64x64.mat"
+READ:  RHS      (b) file name: "./ge_data/size64x64.vec"
+WRITE: Solution (x) file name: "./ge_data/size64x64.sol"
+[R15] Times: IO: 0.000000; Setup: 0.001855; Compute: 0.001005; MPI: 0.000986; Total: 0.002861;
+[R13] Times: IO: 0.000000; Setup: 0.001691; Compute: 0.001061; MPI: 0.001038; Total: 0.002752;
+[R14] Times: IO: 0.000000; Setup: 0.001058; Compute: 0.001031; MPI: 0.001002; Total: 0.002089;
+[R10] Times: IO: 0.000000; Setup: 0.001658; Compute: 0.001144; MPI: 0.001129; Total: 0.002803;
+[R11] Times: IO: 0.000000; Setup: 0.001667; Compute: 0.001121; MPI: 0.001103; Total: 0.002789;
+[R12] Times: IO: 0.000000; Setup: 0.001684; Compute: 0.001100; MPI: 0.001073; Total: 0.002784;
+[R09] Times: IO: 0.000000; Setup: 0.001636; Compute: 0.001165; MPI: 0.001148; Total: 0.002802;
+[R08] Times: IO: 0.000000; Setup: 0.001591; Compute: 0.001832; MPI: 0.001818; Total: 0.003424;
+[R06] Times: IO: 0.000000; Setup: 0.001594; Compute: 0.001873; MPI: 0.001863; Total: 0.003467;
+[R07] Times: IO: 0.000000; Setup: 0.001590; Compute: 0.001860; MPI: 0.001846; Total: 0.003450;
+[R04] Times: IO: 0.000000; Setup: 0.001581; Compute: 0.001953; MPI: 0.001939; Total: 0.003534;
+[R05] Times: IO: 0.000000; Setup: 0.001585; Compute: 0.001918; MPI: 0.001905; Total: 0.003505;
+[R01] Times: IO: 0.000000; Setup: 0.001722; Compute: 0.002001; MPI: 0.001991; Total: 0.003723;
+[R02] Times: IO: 0.000000; Setup: 0.001720; Compute: 0.001991; MPI: 0.001981; Total: 0.003711;
+[R03] Times: IO: 0.000000; Setup: 0.001700; Compute: 0.001975; MPI: 0.001962; Total: 0.003675;
+[R00] Times: IO: 0.002775; Setup: 0.000120; Compute: 0.001988; MPI: 0.001976; Total: 0.004904;
+Sat Dec 15 16:00:55 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size64x64.mat"
+READ:  RHS      (b) file name: "./ge_data/size64x64.vec"
+WRITE: Solution (x) file name: "./ge_data/size64x64.sol"
+[R31] Times: IO: 0.000000; Setup: 0.001036; Compute: 0.002070; MPI: 0.002042; Total: 0.003106;
+[R29] Times: IO: 0.000000; Setup: 0.003582; Compute: 0.002247; MPI: 0.002230; Total: 0.005829;
+[R30] Times: IO: 0.000000; Setup: 0.001034; Compute: 0.002178; MPI: 0.002146; Total: 0.003213;
+[R28] Times: IO: 0.000000; Setup: 0.003579; Compute: 0.002322; MPI: 0.002308; Total: 0.005901;
+[R27] Times: IO: 0.000000; Setup: 0.003567; Compute: 0.002389; MPI: 0.002375; Total: 0.005957;
+[R26] Times: IO: 0.000000; Setup: 0.003572; Compute: 0.002455; MPI: 0.002438; Total: 0.006028;
+[R25] Times: IO: 0.000000; Setup: 0.003487; Compute: 0.002530; MPI: 0.002515; Total: 0.006017;
+[R24] Times: IO: 0.000000; Setup: 0.003500; Compute: 0.002608; MPI: 0.002598; Total: 0.006108;
+[R23] Times: IO: 0.000000; Setup: 0.003494; Compute: 0.002673; MPI: 0.002662; Total: 0.006167;
+[R22] Times: IO: 0.000000; Setup: 0.003493; Compute: 0.002873; MPI: 0.002862; Total: 0.006366;
+[R21] Times: IO: 0.000000; Setup: 0.003490; Compute: 0.002939; MPI: 0.002924; Total: 0.006429;
+[R20] Times: IO: 0.000000; Setup: 0.003528; Compute: 0.003017; MPI: 0.003002; Total: 0.006546;
+[R19] Times: IO: 0.000000; Setup: 0.003525; Compute: 0.003077; MPI: 0.003064; Total: 0.006604;
+[R18] Times: IO: 0.000000; Setup: 0.003513; Compute: 0.003141; MPI: 0.003126; Total: 0.006654;
+[R17] Times: IO: 0.000000; Setup: 0.003517; Compute: 0.003200; MPI: 0.003188; Total: 0.006718;
+[R16] Times: IO: 0.000000; Setup: 0.003517; Compute: 0.003261; MPI: 0.003250; Total: 0.006778;
+[R14] Times: IO: 0.000000; Setup: 0.003580; Compute: 0.003350; MPI: 0.003333; Total: 0.006930;
+[R15] Times: IO: 0.000000; Setup: 0.003554; Compute: 0.003309; MPI: 0.003295; Total: 0.006864;
+[R13] Times: IO: 0.000000; Setup: 0.003602; Compute: 0.003403; MPI: 0.003386; Total: 0.007006;
+[R12] Times: IO: 0.000000; Setup: 0.003599; Compute: 0.003454; MPI: 0.003435; Total: 0.007054;
+[R11] Times: IO: 0.000000; Setup: 0.003598; Compute: 0.003496; MPI: 0.003485; Total: 0.007095;
+[R10] Times: IO: 0.000000; Setup: 0.003593; Compute: 0.003540; MPI: 0.003527; Total: 0.007134;
+[R09] Times: IO: 0.000000; Setup: 0.003591; Compute: 0.003582; MPI: 0.003570; Total: 0.007173;
+[R08] Times: IO: 0.000000; Setup: 0.003526; Compute: 0.003634; MPI: 0.003621; Total: 0.007161;
+[R07] Times: IO: 0.000000; Setup: 0.003523; Compute: 0.003671; MPI: 0.003659; Total: 0.007194;
+[R05] Times: IO: 0.000000; Setup: 0.003516; Compute: 0.004119; MPI: 0.004112; Total: 0.007636;
+[R06] Times: IO: 0.000000; Setup: 0.002629; Compute: 0.004085; MPI: 0.004075; Total: 0.006715;
+[R04] Times: IO: 0.000000; Setup: 0.002573; Compute: 0.004177; MPI: 0.004166; Total: 0.006750;
+[R03] Times: IO: 0.000000; Setup: 0.002560; Compute: 0.004225; MPI: 0.004214; Total: 0.006786;
+[R02] Times: IO: 0.000000; Setup: 0.002594; Compute: 0.004262; MPI: 0.004250; Total: 0.006856;
+[R01] Times: IO: 0.000000; Setup: 0.003480; Compute: 0.004292; MPI: 0.004283; Total: 0.007772;
+[R00] Times: IO: 0.003392; Setup: 0.000301; Compute: 0.004219; MPI: 0.004211; Total: 0.007938;
+Sat Dec 15 16:00:57 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size64x64.mat"
+READ:  RHS      (b) file name: "./ge_data/size64x64.vec"
+WRITE: Solution (x) file name: "./ge_data/size64x64.sol"
+[R63] Times: IO: 0.000000; Setup: 0.159497; Compute: 0.785165; MPI: 0.785122; Total: 0.944662;
+[R62] Times: IO: 0.000000; Setup: 0.156331; Compute: 0.788507; MPI: 0.788484; Total: 0.944838;
+[R61] Times: IO: 0.000000; Setup: 0.154785; Compute: 0.790194; MPI: 0.790156; Total: 0.944980;
+[R60] Times: IO: 0.000000; Setup: 0.154777; Compute: 0.790360; MPI: 0.790332; Total: 0.945137;
+[R59] Times: IO: 0.000000; Setup: 0.154777; Compute: 0.790501; MPI: 0.790469; Total: 0.945279;
+[R58] Times: IO: 0.000000; Setup: 0.154773; Compute: 0.790650; MPI: 0.790629; Total: 0.945424;
+[R57] Times: IO: 0.000000; Setup: 0.154750; Compute: 0.790798; MPI: 0.790764; Total: 0.945548;
+[R56] Times: IO: 0.000000; Setup: 0.154758; Compute: 0.790943; MPI: 0.790901; Total: 0.945702;
+[R55] Times: IO: 0.000000; Setup: 0.154772; Compute: 0.791073; MPI: 0.791051; Total: 0.945845;
+[R54] Times: IO: 0.000000; Setup: 0.154769; Compute: 0.791202; MPI: 0.791173; Total: 0.945971;
+[R53] Times: IO: 0.000000; Setup: 0.154765; Compute: 0.791333; MPI: 0.791299; Total: 0.946099;
+[R52] Times: IO: 0.000000; Setup: 0.154600; Compute: 0.791477; MPI: 0.791439; Total: 0.946077;
+[R51] Times: IO: 0.000000; Setup: 0.154596; Compute: 0.791625; MPI: 0.791588; Total: 0.946221;
+[R50] Times: IO: 0.000000; Setup: 0.154577; Compute: 0.791753; MPI: 0.791724; Total: 0.946331;
+[R49] Times: IO: 0.000000; Setup: 0.154552; Compute: 0.791885; MPI: 0.791855; Total: 0.946438;
+[R48] Times: IO: 0.000000; Setup: 0.154546; Compute: 0.792024; MPI: 0.791985; Total: 0.946570;
+[R47] Times: IO: 0.000000; Setup: 0.148603; Compute: 0.792138; MPI: 0.792105; Total: 0.940741;
+[R46] Times: IO: 0.000000; Setup: 0.148617; Compute: 0.792250; MPI: 0.792218; Total: 0.940867;
+[R45] Times: IO: 0.000000; Setup: 0.148541; Compute: 0.792379; MPI: 0.792344; Total: 0.940920;
+[R44] Times: IO: 0.000000; Setup: 0.148537; Compute: 0.792543; MPI: 0.792510; Total: 0.941081;
+[R43] Times: IO: 0.000000; Setup: 0.148533; Compute: 0.792667; MPI: 0.792627; Total: 0.941200;
+[R42] Times: IO: 0.000000; Setup: 0.148529; Compute: 0.792795; MPI: 0.792772; Total: 0.941324;
+[R41] Times: IO: 0.000000; Setup: 0.148515; Compute: 0.792927; MPI: 0.792897; Total: 0.941443;
+[R40] Times: IO: 0.000000; Setup: 0.148600; Compute: 0.793058; MPI: 0.793035; Total: 0.941658;
+[R39] Times: IO: 0.000000; Setup: 0.148596; Compute: 0.793172; MPI: 0.793140; Total: 0.941768;
+[R38] Times: IO: 0.000000; Setup: 0.148592; Compute: 0.793296; MPI: 0.793269; Total: 0.941888;
+[R37] Times: IO: 0.000000; Setup: 0.148589; Compute: 0.793416; MPI: 0.793388; Total: 0.942005;
+[R36] Times: IO: 0.000000; Setup: 0.148519; Compute: 0.793550; MPI: 0.793512; Total: 0.942070;
+[R35] Times: IO: 0.000000; Setup: 0.148500; Compute: 0.793669; MPI: 0.793642; Total: 0.942170;
+[R34] Times: IO: 0.000000; Setup: 0.148510; Compute: 0.793780; MPI: 0.793751; Total: 0.942290;
+[R33] Times: IO: 0.000000; Setup: 0.148507; Compute: 0.793890; MPI: 0.793857; Total: 0.942398;
+[R32] Times: IO: 0.000000; Setup: 0.148507; Compute: 0.794009; MPI: 0.793977; Total: 0.942519;
+[R31] Times: IO: 0.000000; Setup: 0.147013; Compute: 0.794103; MPI: 0.794078; Total: 0.941117;
+[R30] Times: IO: 0.000000; Setup: 0.145965; Compute: 0.794198; MPI: 0.794164; Total: 0.940164;
+[R29] Times: IO: 0.000000; Setup: 0.146660; Compute: 0.794306; MPI: 0.794278; Total: 0.940966;
+[R28] Times: IO: 0.000000; Setup: 0.146706; Compute: 0.794426; MPI: 0.794398; Total: 0.941132;
+[R27] Times: IO: 0.000000; Setup: 0.146727; Compute: 0.794528; MPI: 0.794494; Total: 0.941256;
+[R26] Times: IO: 0.000000; Setup: 0.146621; Compute: 0.794633; MPI: 0.794608; Total: 0.941254;
+[R25] Times: IO: 0.000000; Setup: 0.146577; Compute: 0.794743; MPI: 0.794728; Total: 0.941321;
+[R24] Times: IO: 0.000000; Setup: 0.146547; Compute: 0.794855; MPI: 0.794823; Total: 0.941402;
+[R23] Times: IO: 0.000000; Setup: 0.146569; Compute: 0.794944; MPI: 0.794922; Total: 0.941514;
+[R22] Times: IO: 0.000000; Setup: 0.146567; Compute: 0.795058; MPI: 0.795027; Total: 0.941627;
+[R21] Times: IO: 0.000000; Setup: 0.146486; Compute: 0.795153; MPI: 0.795123; Total: 0.941639;
+[R20] Times: IO: 0.000000; Setup: 0.146567; Compute: 0.795262; MPI: 0.795231; Total: 0.941830;
+[R19] Times: IO: 0.000000; Setup: 0.146563; Compute: 0.795351; MPI: 0.795322; Total: 0.941915;
+[R18] Times: IO: 0.000000; Setup: 0.146549; Compute: 0.795447; MPI: 0.795424; Total: 0.941996;
+[R17] Times: IO: 0.000000; Setup: 0.146557; Compute: 0.795541; MPI: 0.795511; Total: 0.942098;
+[R16] Times: IO: 0.000000; Setup: 0.146547; Compute: 0.795635; MPI: 0.795606; Total: 0.942182;
+[R15] Times: IO: 0.000000; Setup: 0.146003; Compute: 0.795699; MPI: 0.795663; Total: 0.941704;
+[R14] Times: IO: 0.000000; Setup: 0.145989; Compute: 0.795779; MPI: 0.795744; Total: 0.941769;
+[R13] Times: IO: 0.000000; Setup: 0.147320; Compute: 0.795859; MPI: 0.795823; Total: 0.943180;
+[R12] Times: IO: 0.000000; Setup: 0.147316; Compute: 0.795956; MPI: 0.795928; Total: 0.943272;
+[R11] Times: IO: 0.000000; Setup: 0.147311; Compute: 0.796059; MPI: 0.796029; Total: 0.943371;
+[R10] Times: IO: 0.000000; Setup: 0.147297; Compute: 0.796139; MPI: 0.796107; Total: 0.943437;
+[R09] Times: IO: 0.000000; Setup: 0.147262; Compute: 0.796487; MPI: 0.796451; Total: 0.943751;
+[R08] Times: IO: 0.000000; Setup: 0.147438; Compute: 0.796590; MPI: 0.796559; Total: 0.944029;
+[R07] Times: IO: 0.000000; Setup: 0.145983; Compute: 0.796650; MPI: 0.796622; Total: 0.942634;
+[R06] Times: IO: 0.000000; Setup: 0.145963; Compute: 0.796728; MPI: 0.796699; Total: 0.942692;
+[R05] Times: IO: 0.000000; Setup: 0.147426; Compute: 0.796796; MPI: 0.796766; Total: 0.944222;
+[R04] Times: IO: 0.000000; Setup: 0.147282; Compute: 0.796879; MPI: 0.796851; Total: 0.944161;
+[R03] Times: IO: 0.000000; Setup: 0.147288; Compute: 0.796944; MPI: 0.796921; Total: 0.944233;
+[R02] Times: IO: 0.000000; Setup: 0.147285; Compute: 0.797032; MPI: 0.797007; Total: 0.944318;
+[R01] Times: IO: 0.000000; Setup: 0.147280; Compute: 0.797100; MPI: 0.797074; Total: 0.944380;
+[R00] Times: IO: 0.003271; Setup: 0.144894; Compute: 0.796915; MPI: 0.796908; Total: 0.945108;
+Sat Dec 15 16:01:00 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size512x512.mat"
+READ:  RHS      (b) file name: "./ge_data/size512x512.vec"
+WRITE: Solution (x) file name: "./ge_data/size512x512.sol"
+[R07] Times: IO: 0.000000; Setup: 0.064276; Compute: 0.010447; MPI: 0.003953; Total: 0.074724;
+[R06] Times: IO: 0.000000; Setup: 0.064291; Compute: 0.010507; MPI: 0.004153; Total: 0.074799;
+[R05] Times: IO: 0.000000; Setup: 0.064349; Compute: 0.010587; MPI: 0.004959; Total: 0.074936;
+[R04] Times: IO: 0.000000; Setup: 0.064397; Compute: 0.010655; MPI: 0.005513; Total: 0.075053;
+[R03] Times: IO: 0.000000; Setup: 0.064242; Compute: 0.010829; MPI: 0.006560; Total: 0.075072;
+[R02] Times: IO: 0.000000; Setup: 0.063345; Compute: 0.011131; MPI: 0.008105; Total: 0.074477;
+[R01] Times: IO: 0.000000; Setup: 0.064065; Compute: 0.011269; MPI: 0.009113; Total: 0.075335;
+[R00] Times: IO: 0.064497; Setup: 0.000636; Compute: 0.011345; MPI: 0.010405; Total: 0.077875;
+Sat Dec 15 16:01:01 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size512x512.mat"
+READ:  RHS      (b) file name: "./ge_data/size512x512.vec"
+WRITE: Solution (x) file name: "./ge_data/size512x512.sol"
+[R14] Times: IO: 0.000000; Setup: 0.057049; Compute: 0.005048; MPI: 0.002399; Total: 0.062098;
+[R15] Times: IO: 0.000000; Setup: 0.057625; Compute: 0.005084; MPI: 0.002429; Total: 0.062710;
+[R13] Times: IO: 0.000000; Setup: 0.057621; Compute: 0.005779; MPI: 0.003193; Total: 0.063400;
+[R12] Times: IO: 0.000000; Setup: 0.057614; Compute: 0.005865; MPI: 0.003332; Total: 0.063480;
+[R11] Times: IO: 0.000000; Setup: 0.057618; Compute: 0.005905; MPI: 0.003469; Total: 0.063523;
+[R10] Times: IO: 0.000000; Setup: 0.057618; Compute: 0.005948; MPI: 0.003615; Total: 0.063566;
+[R09] Times: IO: 0.000000; Setup: 0.057618; Compute: 0.005994; MPI: 0.003802; Total: 0.063612;
+[R08] Times: IO: 0.000000; Setup: 0.057497; Compute: 0.006134; MPI: 0.004068; Total: 0.063632;
+[R07] Times: IO: 0.000000; Setup: 0.057457; Compute: 0.006223; MPI: 0.004322; Total: 0.063681;
+[R06] Times: IO: 0.000000; Setup: 0.057407; Compute: 0.006319; MPI: 0.004610; Total: 0.063727;
+[R05] Times: IO: 0.000000; Setup: 0.057372; Compute: 0.006401; MPI: 0.004861; Total: 0.063774;
+[R04] Times: IO: 0.000000; Setup: 0.057337; Compute: 0.006473; MPI: 0.005191; Total: 0.063810;
+[R03] Times: IO: 0.000000; Setup: 0.057330; Compute: 0.006712; MPI: 0.005672; Total: 0.064043;
+[R02] Times: IO: 0.000000; Setup: 0.057327; Compute: 0.006770; MPI: 0.005977; Total: 0.064098;
+[R01] Times: IO: 0.000000; Setup: 0.057302; Compute: 0.006824; MPI: 0.006298; Total: 0.064126;
+[R00] Times: IO: 0.057179; Setup: 0.000371; Compute: 0.006801; MPI: 0.006449; Total: 0.065717;
+Sat Dec 15 16:01:03 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size512x512.mat"
+READ:  RHS      (b) file name: "./ge_data/size512x512.vec"
+WRITE: Solution (x) file name: "./ge_data/size512x512.sol"
+[R31] Times: IO: 0.000000; Setup: 0.059550; Compute: 0.004323; MPI: 0.002940; Total: 0.063874;
+[R30] Times: IO: 0.000000; Setup: 0.059534; Compute: 0.004404; MPI: 0.003036; Total: 0.063939;
+[R29] Times: IO: 0.000000; Setup: 0.060397; Compute: 0.004500; MPI: 0.003156; Total: 0.064897;
+[R28] Times: IO: 0.000000; Setup: 0.060376; Compute: 0.005140; MPI: 0.003779; Total: 0.065516;
+[R27] Times: IO: 0.000000; Setup: 0.060331; Compute: 0.005225; MPI: 0.003889; Total: 0.065557;
+[R26] Times: IO: 0.000000; Setup: 0.060323; Compute: 0.005317; MPI: 0.003999; Total: 0.065640;
+[R25] Times: IO: 0.000000; Setup: 0.060249; Compute: 0.005411; MPI: 0.004068; Total: 0.065661;
+[R24] Times: IO: 0.000000; Setup: 0.060203; Compute: 0.005524; MPI: 0.004235; Total: 0.065727;
+[R23] Times: IO: 0.000000; Setup: 0.060192; Compute: 0.005613; MPI: 0.004333; Total: 0.065805;
+[R22] Times: IO: 0.000000; Setup: 0.060166; Compute: 0.005700; MPI: 0.004444; Total: 0.065867;
+[R21] Times: IO: 0.000000; Setup: 0.060134; Compute: 0.005795; MPI: 0.004572; Total: 0.065929;
+[R20] Times: IO: 0.000000; Setup: 0.060158; Compute: 0.005907; MPI: 0.004725; Total: 0.066065;
+[R19] Times: IO: 0.000000; Setup: 0.060117; Compute: 0.006009; MPI: 0.004840; Total: 0.066126;
+[R18] Times: IO: 0.000000; Setup: 0.060089; Compute: 0.006093; MPI: 0.005035; Total: 0.066183;
+[R17] Times: IO: 0.000000; Setup: 0.060048; Compute: 0.006193; MPI: 0.005094; Total: 0.066242;
+[R16] Times: IO: 0.000000; Setup: 0.059997; Compute: 0.006326; MPI: 0.005277; Total: 0.066324;
+[R15] Times: IO: 0.000000; Setup: 0.059720; Compute: 0.006357; MPI: 0.005381; Total: 0.066077;
+[R14] Times: IO: 0.000000; Setup: 0.058839; Compute: 0.006419; MPI: 0.005493; Total: 0.065259;
+[R13] Times: IO: 0.000000; Setup: 0.059741; Compute: 0.007017; MPI: 0.006139; Total: 0.066758;
+[R12] Times: IO: 0.000000; Setup: 0.059729; Compute: 0.007119; MPI: 0.006288; Total: 0.066849;
+[R11] Times: IO: 0.000000; Setup: 0.058817; Compute: 0.007180; MPI: 0.006392; Total: 0.065997;
+[R10] Times: IO: 0.000000; Setup: 0.058865; Compute: 0.007239; MPI: 0.006498; Total: 0.066104;
+[R09] Times: IO: 0.000000; Setup: 0.058825; Compute: 0.007303; MPI: 0.006618; Total: 0.066129;
+[R08] Times: IO: 0.000000; Setup: 0.059626; Compute: 0.007446; MPI: 0.006806; Total: 0.067073;
+[R07] Times: IO: 0.000000; Setup: 0.059623; Compute: 0.007503; MPI: 0.006930; Total: 0.067126;
+[R06] Times: IO: 0.000000; Setup: 0.059593; Compute: 0.007563; MPI: 0.007054; Total: 0.067157;
+[R05] Times: IO: 0.000000; Setup: 0.059615; Compute: 0.007629; MPI: 0.007191; Total: 0.067244;
+[R04] Times: IO: 0.000000; Setup: 0.058700; Compute: 0.007695; MPI: 0.007321; Total: 0.066395;
+[R03] Times: IO: 0.000000; Setup: 0.059633; Compute: 0.007797; MPI: 0.007465; Total: 0.067430;
+[R02] Times: IO: 0.000000; Setup: 0.059654; Compute: 0.007851; MPI: 0.007596; Total: 0.067505;
+[R01] Times: IO: 0.000000; Setup: 0.059639; Compute: 0.007909; MPI: 0.007734; Total: 0.067548;
+[R00] Times: IO: 0.059528; Setup: 0.000889; Compute: 0.007403; MPI: 0.007273; Total: 0.069157;
+Sat Dec 15 16:01:04 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size512x512.mat"
+READ:  RHS      (b) file name: "./ge_data/size512x512.vec"
+WRITE: Solution (x) file name: "./ge_data/size512x512.sol"
+[R63] Times: IO: 0.000000; Setup: 0.204226; Compute: 0.736581; MPI: 0.735366; Total: 0.940807;
+[R62] Times: IO: 0.000000; Setup: 0.200427; Compute: 0.740546; MPI: 0.739542; Total: 0.940974;
+[R61] Times: IO: 0.000000; Setup: 0.200447; Compute: 0.740754; MPI: 0.739769; Total: 0.941202;
+[R60] Times: IO: 0.000000; Setup: 0.200332; Compute: 0.741042; MPI: 0.740015; Total: 0.941376;
+[R59] Times: IO: 0.000000; Setup: 0.199725; Compute: 0.741215; MPI: 0.740218; Total: 0.940941;
+[R58] Times: IO: 0.000000; Setup: 0.200313; Compute: 0.741372; MPI: 0.740386; Total: 0.941686;
+[R57] Times: IO: 0.000000; Setup: 0.199941; Compute: 0.741541; MPI: 0.740544; Total: 0.941483;
+[R56] Times: IO: 0.000000; Setup: 0.199909; Compute: 0.741733; MPI: 0.740714; Total: 0.941642;
+[R55] Times: IO: 0.000000; Setup: 0.199897; Compute: 0.741893; MPI: 0.740683; Total: 0.941791;
+[R54] Times: IO: 0.000000; Setup: 0.199860; Compute: 0.742052; MPI: 0.741078; Total: 0.941912;
+[R53] Times: IO: 0.000000; Setup: 0.199868; Compute: 0.742211; MPI: 0.741030; Total: 0.942079;
+[R52] Times: IO: 0.000000; Setup: 0.199854; Compute: 0.742392; MPI: 0.741435; Total: 0.942246;
+[R51] Times: IO: 0.000000; Setup: 0.200165; Compute: 0.742543; MPI: 0.741593; Total: 0.942708;
+[R50] Times: IO: 0.000000; Setup: 0.200150; Compute: 0.742690; MPI: 0.741745; Total: 0.942840;
+[R49] Times: IO: 0.000000; Setup: 0.200135; Compute: 0.742837; MPI: 0.741803; Total: 0.942972;
+[R48] Times: IO: 0.000000; Setup: 0.199516; Compute: 0.743004; MPI: 0.741845; Total: 0.942521;
+[R47] Times: IO: 0.000000; Setup: 0.204301; Compute: 0.743123; MPI: 0.742217; Total: 0.947424;
+[R46] Times: IO: 0.000000; Setup: 0.203630; Compute: 0.743254; MPI: 0.742333; Total: 0.946884;
+[R45] Times: IO: 0.000000; Setup: 0.204229; Compute: 0.743425; MPI: 0.742519; Total: 0.947654;
+[R44] Times: IO: 0.000000; Setup: 0.204227; Compute: 0.743607; MPI: 0.742719; Total: 0.947836;
+[R43] Times: IO: 0.000000; Setup: 0.204227; Compute: 0.743742; MPI: 0.742857; Total: 0.947970;
+[R42] Times: IO: 0.000000; Setup: 0.204202; Compute: 0.743896; MPI: 0.743043; Total: 0.948099;
+[R41] Times: IO: 0.000000; Setup: 0.204184; Compute: 0.744067; MPI: 0.743044; Total: 0.948252;
+[R40] Times: IO: 0.000000; Setup: 0.204197; Compute: 0.744225; MPI: 0.743375; Total: 0.948422;
+[R39] Times: IO: 0.000000; Setup: 0.204190; Compute: 0.744362; MPI: 0.743378; Total: 0.948553;
+[R38] Times: IO: 0.000000; Setup: 0.204165; Compute: 0.744501; MPI: 0.743681; Total: 0.948666;
+[R37] Times: IO: 0.000000; Setup: 0.204160; Compute: 0.744643; MPI: 0.743828; Total: 0.948804;
+[R36] Times: IO: 0.000000; Setup: 0.203996; Compute: 0.744834; MPI: 0.744039; Total: 0.948832;
+[R35] Times: IO: 0.000000; Setup: 0.203998; Compute: 0.744958; MPI: 0.744208; Total: 0.948956;
+[R34] Times: IO: 0.000000; Setup: 0.203981; Compute: 0.745098; MPI: 0.744332; Total: 0.949080;
+[R33] Times: IO: 0.000000; Setup: 0.203961; Compute: 0.745243; MPI: 0.744487; Total: 0.949205;
+[R32] Times: IO: 0.000000; Setup: 0.203936; Compute: 0.745383; MPI: 0.744405; Total: 0.949320;
+[R31] Times: IO: 0.000000; Setup: 0.209420; Compute: 0.745500; MPI: 0.744895; Total: 0.954920;
+[R30] Times: IO: 0.000000; Setup: 0.208725; Compute: 0.745622; MPI: 0.745034; Total: 0.954349;
+[R29] Times: IO: 0.000000; Setup: 0.209376; Compute: 0.745743; MPI: 0.745198; Total: 0.955119;
+[R28] Times: IO: 0.000000; Setup: 0.209318; Compute: 0.745916; MPI: 0.745343; Total: 0.955236;
+[R27] Times: IO: 0.000000; Setup: 0.209350; Compute: 0.746035; MPI: 0.745521; Total: 0.955385;
+[R26] Times: IO: 0.000000; Setup: 0.209306; Compute: 0.746192; MPI: 0.745690; Total: 0.955498;
+[R25] Times: IO: 0.000000; Setup: 0.209134; Compute: 0.746328; MPI: 0.745795; Total: 0.955463;
+[R24] Times: IO: 0.000000; Setup: 0.209159; Compute: 0.746480; MPI: 0.745993; Total: 0.955641;
+[R23] Times: IO: 0.000000; Setup: 0.209135; Compute: 0.746600; MPI: 0.746068; Total: 0.955736;
+[R22] Times: IO: 0.000000; Setup: 0.209134; Compute: 0.746725; MPI: 0.746206; Total: 0.955859;
+[R21] Times: IO: 0.000000; Setup: 0.209117; Compute: 0.746853; MPI: 0.746377; Total: 0.955970;
+[R20] Times: IO: 0.000000; Setup: 0.209071; Compute: 0.746995; MPI: 0.746455; Total: 0.956066;
+[R19] Times: IO: 0.000000; Setup: 0.209067; Compute: 0.747119; MPI: 0.746667; Total: 0.956186;
+[R18] Times: IO: 0.000000; Setup: 0.209051; Compute: 0.747237; MPI: 0.746803; Total: 0.956289;
+[R17] Times: IO: 0.000000; Setup: 0.209036; Compute: 0.747360; MPI: 0.746939; Total: 0.956396;
+[R16] Times: IO: 0.000000; Setup: 0.208974; Compute: 0.747483; MPI: 0.746895; Total: 0.956457;
+[R15] Times: IO: 0.000000; Setup: 0.201275; Compute: 0.747585; MPI: 0.747276; Total: 0.948861;
+[R14] Times: IO: 0.000000; Setup: 0.201233; Compute: 0.747734; MPI: 0.747436; Total: 0.948968;
+[R13] Times: IO: 0.000000; Setup: 0.202581; Compute: 0.747907; MPI: 0.747615; Total: 0.950489;
+[R12] Times: IO: 0.000000; Setup: 0.202530; Compute: 0.748557; MPI: 0.748293; Total: 0.951088;
+[R11] Times: IO: 0.000000; Setup: 0.202488; Compute: 0.748692; MPI: 0.748437; Total: 0.951182;
+[R10] Times: IO: 0.000000; Setup: 0.202438; Compute: 0.748855; MPI: 0.748614; Total: 0.951294;
+[R09] Times: IO: 0.000000; Setup: 0.202359; Compute: 0.749003; MPI: 0.748780; Total: 0.951363;
+[R08] Times: IO: 0.000000; Setup: 0.202501; Compute: 0.749167; MPI: 0.748954; Total: 0.951668;
+[R07] Times: IO: 0.000000; Setup: 0.202461; Compute: 0.749286; MPI: 0.749096; Total: 0.951747;
+[R06] Times: IO: 0.000000; Setup: 0.202415; Compute: 0.749413; MPI: 0.749242; Total: 0.951828;
+[R05] Times: IO: 0.000000; Setup: 0.202366; Compute: 0.749553; MPI: 0.749396; Total: 0.951919;
+[R04] Times: IO: 0.000000; Setup: 0.202181; Compute: 0.749714; MPI: 0.749563; Total: 0.951895;
+[R03] Times: IO: 0.000000; Setup: 0.202162; Compute: 0.749837; MPI: 0.749714; Total: 0.952000;
+[R02] Times: IO: 0.000000; Setup: 0.202112; Compute: 0.749968; MPI: 0.749870; Total: 0.952080;
+[R01] Times: IO: 0.000000; Setup: 0.202072; Compute: 0.750087; MPI: 0.749998; Total: 0.952160;
+[R00] Times: IO: 0.057437; Setup: 0.145690; Compute: 0.748829; MPI: 0.748745; Total: 0.953314;
+Sat Dec 15 16:01:08 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size1024x1024.mat"
+READ:  RHS      (b) file name: "./ge_data/size1024x1024.vec"
+WRITE: Solution (x) file name: "./ge_data/size1024x1024.sol"
+[R07] Times: IO: 0.000000; Setup: 0.232474; Compute: 0.095091; MPI: 0.038104; Total: 0.327565;
+[R06] Times: IO: 0.000000; Setup: 0.232816; Compute: 0.094915; MPI: 0.040219; Total: 0.327731;
+[R05] Times: IO: 0.000000; Setup: 0.233766; Compute: 0.094811; MPI: 0.046268; Total: 0.328578;
+[R04] Times: IO: 0.000000; Setup: 0.233791; Compute: 0.095038; MPI: 0.048632; Total: 0.328831;
+[R03] Times: IO: 0.000000; Setup: 0.233790; Compute: 0.095270; MPI: 0.054874; Total: 0.329060;
+[R02] Times: IO: 0.000000; Setup: 0.233808; Compute: 0.095628; MPI: 0.064459; Total: 0.329436;
+[R01] Times: IO: 0.000000; Setup: 0.232706; Compute: 0.097213; MPI: 0.078306; Total: 0.329921;
+[R00] Times: IO: 0.228950; Setup: 0.001500; Compute: 0.097608; MPI: 0.089645; Total: 0.332473;
+Sat Dec 15 16:01:09 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size1024x1024.mat"
+READ:  RHS      (b) file name: "./ge_data/size1024x1024.vec"
+WRITE: Solution (x) file name: "./ge_data/size1024x1024.sol"
+[R14] Times: IO: 0.000000; Setup: 0.230599; Compute: 0.040578; MPI: 0.013848; Total: 0.271177;
+[R15] Times: IO: 0.000000; Setup: 0.230414; Compute: 0.040711; MPI: 0.013778; Total: 0.271126;
+[R13] Times: IO: 0.000000; Setup: 0.230662; Compute: 0.041179; MPI: 0.015966; Total: 0.271842;
+[R12] Times: IO: 0.000000; Setup: 0.230651; Compute: 0.041308; MPI: 0.016347; Total: 0.271961;
+[R11] Times: IO: 0.000000; Setup: 0.230817; Compute: 0.041244; MPI: 0.016466; Total: 0.272061;
+[R10] Times: IO: 0.000000; Setup: 0.230832; Compute: 0.041327; MPI: 0.017355; Total: 0.272160;
+[R09] Times: IO: 0.000000; Setup: 0.230679; Compute: 0.041426; MPI: 0.020377; Total: 0.272105;
+[R08] Times: IO: 0.000000; Setup: 0.230641; Compute: 0.041608; MPI: 0.021241; Total: 0.272250;
+[R07] Times: IO: 0.000000; Setup: 0.230556; Compute: 0.041837; MPI: 0.022982; Total: 0.272393;
+[R06] Times: IO: 0.000000; Setup: 0.230458; Compute: 0.042068; MPI: 0.025227; Total: 0.272527;
+[R05] Times: IO: 0.000000; Setup: 0.230453; Compute: 0.042233; MPI: 0.027004; Total: 0.272687;
+[R04] Times: IO: 0.000000; Setup: 0.229633; Compute: 0.043180; MPI: 0.030590; Total: 0.272814;
+[R03] Times: IO: 0.000000; Setup: 0.228262; Compute: 0.044748; MPI: 0.034599; Total: 0.273010;
+[R02] Times: IO: 0.000000; Setup: 0.227933; Compute: 0.045247; MPI: 0.037688; Total: 0.273180;
+[R01] Times: IO: 0.000000; Setup: 0.227903; Compute: 0.045445; MPI: 0.040603; Total: 0.273348;
+[R00] Times: IO: 0.224923; Setup: 0.001011; Compute: 0.045313; MPI: 0.042852; Total: 0.275574;
+Sat Dec 15 16:01:11 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size1024x1024.mat"
+READ:  RHS      (b) file name: "./ge_data/size1024x1024.vec"
+WRITE: Solution (x) file name: "./ge_data/size1024x1024.sol"
+[R30] Times: IO: 0.000000; Setup: 0.227970; Compute: 0.022112; MPI: 0.011352; Total: 0.250083;
+[R31] Times: IO: 0.000000; Setup: 0.227188; Compute: 0.022003; MPI: 0.010318; Total: 0.249191;
+[R29] Times: IO: 0.000000; Setup: 0.226127; Compute: 0.023789; MPI: 0.013317; Total: 0.249917;
+[R28] Times: IO: 0.000000; Setup: 0.226521; Compute: 0.024386; MPI: 0.012735; Total: 0.250908;
+[R27] Times: IO: 0.000000; Setup: 0.226500; Compute: 0.024473; MPI: 0.013145; Total: 0.250973;
+[R26] Times: IO: 0.000000; Setup: 0.226481; Compute: 0.024572; MPI: 0.013383; Total: 0.251053;
+[R25] Times: IO: 0.000000; Setup: 0.226478; Compute: 0.024658; MPI: 0.013379; Total: 0.251136;
+[R24] Times: IO: 0.000000; Setup: 0.226312; Compute: 0.024902; MPI: 0.014504; Total: 0.251214;
+[R23] Times: IO: 0.000000; Setup: 0.226267; Compute: 0.025005; MPI: 0.015392; Total: 0.251272;
+[R22] Times: IO: 0.000000; Setup: 0.226247; Compute: 0.025122; MPI: 0.014860; Total: 0.251369;
+[R21] Times: IO: 0.000000; Setup: 0.226195; Compute: 0.025252; MPI: 0.016070; Total: 0.251447;
+[R20] Times: IO: 0.000000; Setup: 0.226184; Compute: 0.025353; MPI: 0.015863; Total: 0.251537;
+[R19] Times: IO: 0.000000; Setup: 0.226170; Compute: 0.025554; MPI: 0.016617; Total: 0.251724;
+[R18] Times: IO: 0.000000; Setup: 0.226140; Compute: 0.025666; MPI: 0.017032; Total: 0.251806;
+[R17] Times: IO: 0.000000; Setup: 0.226091; Compute: 0.025795; MPI: 0.017091; Total: 0.251886;
+[R16] Times: IO: 0.000000; Setup: 0.226132; Compute: 0.025847; MPI: 0.014532; Total: 0.251979;
+[R15] Times: IO: 0.000000; Setup: 0.225806; Compute: 0.026085; MPI: 0.018084; Total: 0.251892;
+[R14] Times: IO: 0.000000; Setup: 0.224938; Compute: 0.026137; MPI: 0.018190; Total: 0.251075;
+[R13] Times: IO: 0.000000; Setup: 0.225910; Compute: 0.026804; MPI: 0.019390; Total: 0.252714;
+[R12] Times: IO: 0.000000; Setup: 0.225905; Compute: 0.026948; MPI: 0.019421; Total: 0.252854;
+[R11] Times: IO: 0.000000; Setup: 0.225008; Compute: 0.027066; MPI: 0.020649; Total: 0.252074;
+[R10] Times: IO: 0.000000; Setup: 0.225742; Compute: 0.027294; MPI: 0.021334; Total: 0.253037;
+[R09] Times: IO: 0.000000; Setup: 0.225032; Compute: 0.027242; MPI: 0.021950; Total: 0.252275;
+[R08] Times: IO: 0.000000; Setup: 0.225021; Compute: 0.028243; MPI: 0.022628; Total: 0.253264;
+[R07] Times: IO: 0.000000; Setup: 0.225597; Compute: 0.027723; MPI: 0.022400; Total: 0.253320;
+[R06] Times: IO: 0.000000; Setup: 0.225063; Compute: 0.028389; MPI: 0.023809; Total: 0.253453;
+[R05] Times: IO: 0.000000; Setup: 0.225065; Compute: 0.028492; MPI: 0.024859; Total: 0.253557;
+[R04] Times: IO: 0.000000; Setup: 0.225004; Compute: 0.028644; MPI: 0.025682; Total: 0.253648;
+[R03] Times: IO: 0.000000; Setup: 0.224908; Compute: 0.028828; MPI: 0.026295; Total: 0.253736;
+[R02] Times: IO: 0.000000; Setup: 0.224908; Compute: 0.028950; MPI: 0.027146; Total: 0.253860;
+[R01] Times: IO: 0.000000; Setup: 0.224894; Compute: 0.029087; MPI: 0.027935; Total: 0.253981;
+[R00] Times: IO: 0.222454; Setup: 0.001843; Compute: 0.027870; MPI: 0.027218; Total: 0.256461;
+Sat Dec 15 16:01:13 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size1024x1024.mat"
+READ:  RHS      (b) file name: "./ge_data/size1024x1024.vec"
+WRITE: Solution (x) file name: "./ge_data/size1024x1024.sol"
+[R63] Times: IO: 0.000000; Setup: 0.387834; Compute: 0.754339; MPI: 0.746062; Total: 1.142175;
+[R62] Times: IO: 0.000000; Setup: 0.386018; Compute: 0.756329; MPI: 0.748093; Total: 1.142348;
+[R61] Times: IO: 0.000000; Setup: 0.385492; Compute: 0.756982; MPI: 0.749151; Total: 1.142474;
+[R60] Times: IO: 0.000000; Setup: 0.385471; Compute: 0.757568; MPI: 0.749027; Total: 1.143041;
+[R59] Times: IO: 0.000000; Setup: 0.385389; Compute: 0.757787; MPI: 0.749311; Total: 1.143176;
+[R58] Times: IO: 0.000000; Setup: 0.385358; Compute: 0.757984; MPI: 0.749714; Total: 1.143344;
+[R57] Times: IO: 0.000000; Setup: 0.385328; Compute: 0.758151; MPI: 0.749968; Total: 1.143479;
+[R56] Times: IO: 0.000000; Setup: 0.385221; Compute: 0.758396; MPI: 0.750644; Total: 1.143619;
+[R55] Times: IO: 0.000000; Setup: 0.385113; Compute: 0.758639; MPI: 0.750444; Total: 1.143753;
+[R54] Times: IO: 0.000000; Setup: 0.385104; Compute: 0.758792; MPI: 0.751279; Total: 1.143896;
+[R53] Times: IO: 0.000000; Setup: 0.385033; Compute: 0.759009; MPI: 0.751551; Total: 1.144042;
+[R52] Times: IO: 0.000000; Setup: 0.384999; Compute: 0.759193; MPI: 0.751794; Total: 1.144193;
+[R51] Times: IO: 0.000000; Setup: 0.385110; Compute: 0.759377; MPI: 0.752036; Total: 1.144488;
+[R50] Times: IO: 0.000000; Setup: 0.385028; Compute: 0.759604; MPI: 0.751840; Total: 1.144632;
+[R49] Times: IO: 0.000000; Setup: 0.385004; Compute: 0.759753; MPI: 0.751717; Total: 1.144757;
+[R48] Times: IO: 0.000000; Setup: 0.384936; Compute: 0.759968; MPI: 0.751421; Total: 1.144904;
+[R47] Times: IO: 0.000000; Setup: 0.382678; Compute: 0.760132; MPI: 0.752553; Total: 1.142810;
+[R46] Times: IO: 0.000000; Setup: 0.382624; Compute: 0.760318; MPI: 0.752847; Total: 1.142942;
+[R45] Times: IO: 0.000000; Setup: 0.382488; Compute: 0.760568; MPI: 0.753246; Total: 1.143056;
+[R44] Times: IO: 0.000000; Setup: 0.382470; Compute: 0.760783; MPI: 0.753586; Total: 1.143254;
+[R43] Times: IO: 0.000000; Setup: 0.382398; Compute: 0.761217; MPI: 0.754042; Total: 1.143615;
+[R42] Times: IO: 0.000000; Setup: 0.382362; Compute: 0.761417; MPI: 0.754333; Total: 1.143779;
+[R41] Times: IO: 0.000000; Setup: 0.382293; Compute: 0.761636; MPI: 0.754370; Total: 1.143929;
+[R40] Times: IO: 0.000000; Setup: 0.382124; Compute: 0.761895; MPI: 0.755308; Total: 1.144020;
+[R39] Times: IO: 0.000000; Setup: 0.382123; Compute: 0.762054; MPI: 0.754805; Total: 1.144177;
+[R38] Times: IO: 0.000000; Setup: 0.382071; Compute: 0.762272; MPI: 0.755723; Total: 1.144344;
+[R37] Times: IO: 0.000000; Setup: 0.382019; Compute: 0.762458; MPI: 0.755745; Total: 1.144477;
+[R36] Times: IO: 0.000000; Setup: 0.381761; Compute: 0.762697; MPI: 0.756393; Total: 1.144459;
+[R35] Times: IO: 0.000000; Setup: 0.382024; Compute: 0.762866; MPI: 0.756754; Total: 1.144890;
+[R34] Times: IO: 0.000000; Setup: 0.381318; Compute: 0.763100; MPI: 0.756983; Total: 1.144418;
+[R33] Times: IO: 0.000000; Setup: 0.381912; Compute: 0.763246; MPI: 0.757356; Total: 1.145158;
+[R32] Times: IO: 0.000000; Setup: 0.381836; Compute: 0.763467; MPI: 0.756109; Total: 1.145303;
+[R31] Times: IO: 0.000000; Setup: 0.383472; Compute: 0.763618; MPI: 0.757890; Total: 1.147090;
+[R30] Times: IO: 0.000000; Setup: 0.382734; Compute: 0.763841; MPI: 0.758762; Total: 1.146576;
+[R29] Times: IO: 0.000000; Setup: 0.383379; Compute: 0.763997; MPI: 0.758501; Total: 1.147377;
+[R28] Times: IO: 0.000000; Setup: 0.383316; Compute: 0.764217; MPI: 0.758749; Total: 1.147534;
+[R27] Times: IO: 0.000000; Setup: 0.383321; Compute: 0.764592; MPI: 0.759269; Total: 1.147915;
+[R26] Times: IO: 0.000000; Setup: 0.383156; Compute: 0.764850; MPI: 0.759586; Total: 1.148008;
+[R25] Times: IO: 0.000000; Setup: 0.383090; Compute: 0.765027; MPI: 0.760353; Total: 1.148117;
+[R24] Times: IO: 0.000000; Setup: 0.383058; Compute: 0.765241; MPI: 0.760334; Total: 1.148300;
+[R23] Times: IO: 0.000000; Setup: 0.383022; Compute: 0.765395; MPI: 0.760171; Total: 1.148419;
+[R22] Times: IO: 0.000000; Setup: 0.383008; Compute: 0.765565; MPI: 0.761046; Total: 1.148574;
+[R21] Times: IO: 0.000000; Setup: 0.382979; Compute: 0.765728; MPI: 0.761416; Total: 1.148708;
+[R20] Times: IO: 0.000000; Setup: 0.382949; Compute: 0.765904; MPI: 0.762070; Total: 1.148853;
+[R19] Times: IO: 0.000000; Setup: 0.383010; Compute: 0.766224; MPI: 0.763101; Total: 1.149235;
+[R18] Times: IO: 0.000000; Setup: 0.382986; Compute: 0.766374; MPI: 0.763836; Total: 1.149362;
+[R17] Times: IO: 0.000000; Setup: 0.382952; Compute: 0.766537; MPI: 0.764087; Total: 1.149490;
+[R16] Times: IO: 0.000000; Setup: 0.382819; Compute: 0.766809; MPI: 0.764107; Total: 1.149630;
+[R15] Times: IO: 0.000000; Setup: 0.383326; Compute: 0.766931; MPI: 0.764813; Total: 1.150258;
+[R14] Times: IO: 0.000000; Setup: 0.383359; Compute: 0.767029; MPI: 0.765017; Total: 1.150389;
+[R13] Times: IO: 0.000000; Setup: 0.384743; Compute: 0.767761; MPI: 0.765865; Total: 1.152505;
+[R12] Times: IO: 0.000000; Setup: 0.384736; Compute: 0.767932; MPI: 0.766155; Total: 1.152669;
+[R11] Times: IO: 0.000000; Setup: 0.384738; Compute: 0.768059; MPI: 0.766414; Total: 1.152798;
+[R10] Times: IO: 0.000000; Setup: 0.384722; Compute: 0.768204; MPI: 0.766657; Total: 1.152926;
+[R09] Times: IO: 0.000000; Setup: 0.384699; Compute: 0.768335; MPI: 0.766920; Total: 1.153035;
+[R08] Times: IO: 0.000000; Setup: 0.384620; Compute: 0.768586; MPI: 0.767291; Total: 1.153207;
+[R07] Times: IO: 0.000000; Setup: 0.384538; Compute: 0.768760; MPI: 0.767585; Total: 1.153298;
+[R06] Times: IO: 0.000000; Setup: 0.384498; Compute: 0.768940; MPI: 0.767906; Total: 1.153438;
+[R05] Times: IO: 0.000000; Setup: 0.384495; Compute: 0.769063; MPI: 0.768162; Total: 1.153558;
+[R04] Times: IO: 0.000000; Setup: 0.384322; Compute: 0.769234; MPI: 0.768434; Total: 1.153557;
+[R03] Times: IO: 0.000000; Setup: 0.384254; Compute: 0.769377; MPI: 0.768738; Total: 1.153631;
+[R02] Times: IO: 0.000000; Setup: 0.384310; Compute: 0.769504; MPI: 0.769020; Total: 1.153814;
+[R01] Times: IO: 0.000000; Setup: 0.384291; Compute: 0.769633; MPI: 0.769287; Total: 1.153924;
+[R00] Times: IO: 0.236064; Setup: 0.148373; Compute: 0.766956; MPI: 0.766589; Total: 1.156454;
+Sat Dec 15 16:01:17 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size2048x2048.mat"
+READ:  RHS      (b) file name: "./ge_data/size2048x2048.vec"
+WRITE: Solution (x) file name: "./ge_data/size2048x2048.sol"
+[R07] Times: IO: 0.000000; Setup: 0.910576; Compute: 0.682273; MPI: 0.227837; Total: 1.592849;
+[R06] Times: IO: 0.000000; Setup: 0.914414; Compute: 0.678871; MPI: 0.247485; Total: 1.593286;
+[R05] Times: IO: 0.000000; Setup: 0.914530; Compute: 0.679507; MPI: 0.293222; Total: 1.594037;
+[R04] Times: IO: 0.000000; Setup: 0.914518; Compute: 0.680387; MPI: 0.329700; Total: 1.594905;
+[R03] Times: IO: 0.000000; Setup: 0.914486; Compute: 0.681464; MPI: 0.382951; Total: 1.595951;
+[R02] Times: IO: 0.000000; Setup: 0.914430; Compute: 0.682866; MPI: 0.449065; Total: 1.597296;
+[R01] Times: IO: 0.000000; Setup: 0.912034; Compute: 0.686957; MPI: 0.537752; Total: 1.598993;
+[R00] Times: IO: 0.888098; Setup: 0.002570; Compute: 0.696232; MPI: 0.641459; Total: 1.604259;
+Sat Dec 15 16:01:19 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size2048x2048.mat"
+READ:  RHS      (b) file name: "./ge_data/size2048x2048.vec"
+WRITE: Solution (x) file name: "./ge_data/size2048x2048.sol"
+[R15] Times: IO: 0.000000; Setup: 0.909423; Compute: 0.346164; MPI: 0.140356; Total: 1.255588;
+[R14] Times: IO: 0.000000; Setup: 0.909594; Compute: 0.346114; MPI: 0.142238; Total: 1.255708;
+[R13] Times: IO: 0.000000; Setup: 0.909616; Compute: 0.346730; MPI: 0.147934; Total: 1.256347;
+[R12] Times: IO: 0.000000; Setup: 0.909649; Compute: 0.347008; MPI: 0.153888; Total: 1.256658;
+[R11] Times: IO: 0.000000; Setup: 0.909642; Compute: 0.347330; MPI: 0.156747; Total: 1.256973;
+[R10] Times: IO: 0.000000; Setup: 0.909607; Compute: 0.347725; MPI: 0.161701; Total: 1.257332;
+[R09] Times: IO: 0.000000; Setup: 0.909580; Compute: 0.348018; MPI: 0.179525; Total: 1.257598;
+[R08] Times: IO: 0.000000; Setup: 0.909420; Compute: 0.348528; MPI: 0.189516; Total: 1.257949;
+[R07] Times: IO: 0.000000; Setup: 0.909387; Compute: 0.349108; MPI: 0.206302; Total: 1.258496;
+[R06] Times: IO: 0.000000; Setup: 0.909553; Compute: 0.349750; MPI: 0.218193; Total: 1.259303;
+[R05] Times: IO: 0.000000; Setup: 0.909557; Compute: 0.350477; MPI: 0.232222; Total: 1.260035;
+[R04] Times: IO: 0.000000; Setup: 0.907894; Compute: 0.352710; MPI: 0.255884; Total: 1.260605;
+[R03] Times: IO: 0.000000; Setup: 0.909167; Compute: 0.352187; MPI: 0.275190; Total: 1.261354;
+[R02] Times: IO: 0.000000; Setup: 0.907037; Compute: 0.355101; MPI: 0.296835; Total: 1.262138;
+[R01] Times: IO: 0.000000; Setup: 0.902681; Compute: 0.360415; MPI: 0.323938; Total: 1.263097;
+[R00] Times: IO: 0.878830; Setup: 0.004528; Compute: 0.365001; MPI: 0.349507; Total: 1.266096;
+Sat Dec 15 16:01:22 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size2048x2048.mat"
+READ:  RHS      (b) file name: "./ge_data/size2048x2048.vec"
+WRITE: Solution (x) file name: "./ge_data/size2048x2048.sol"
+[R31] Times: IO: 0.000000; Setup: 0.915223; Compute: 0.167796; MPI: 0.059142; Total: 1.083019;
+[R30] Times: IO: 0.000000; Setup: 0.915204; Compute: 0.167914; MPI: 0.057959; Total: 1.083118;
+[R29] Times: IO: 0.000000; Setup: 0.905926; Compute: 0.178262; MPI: 0.071811; Total: 1.084190;
+[R28] Times: IO: 0.000000; Setup: 0.905919; Compute: 0.178433; MPI: 0.072641; Total: 1.084353;
+[R27] Times: IO: 0.000000; Setup: 0.905906; Compute: 0.178815; MPI: 0.072868; Total: 1.084721;
+[R26] Times: IO: 0.000000; Setup: 0.909299; Compute: 0.175575; MPI: 0.068198; Total: 1.084874;
+[R25] Times: IO: 0.000000; Setup: 0.905722; Compute: 0.179194; MPI: 0.074476; Total: 1.084918;
+[R24] Times: IO: 0.000000; Setup: 0.905679; Compute: 0.179437; MPI: 0.077456; Total: 1.085116;
+[R23] Times: IO: 0.000000; Setup: 0.905526; Compute: 0.179781; MPI: 0.082746; Total: 1.085309;
+[R22] Times: IO: 0.000000; Setup: 0.905383; Compute: 0.180112; MPI: 0.084566; Total: 1.085495;
+[R21] Times: IO: 0.000000; Setup: 0.905257; Compute: 0.180430; MPI: 0.085713; Total: 1.085688;
+[R20] Times: IO: 0.000000; Setup: 0.909178; Compute: 0.176749; MPI: 0.084536; Total: 1.085927;
+[R19] Times: IO: 0.000000; Setup: 0.904652; Compute: 0.181643; MPI: 0.094480; Total: 1.086296;
+[R18] Times: IO: 0.000000; Setup: 0.909314; Compute: 0.177179; MPI: 0.091518; Total: 1.086494;
+[R17] Times: IO: 0.000000; Setup: 0.904201; Compute: 0.182499; MPI: 0.099062; Total: 1.086701;
+[R16] Times: IO: 0.000000; Setup: 0.903097; Compute: 0.182932; MPI: 0.103545; Total: 1.086030;
+[R15] Times: IO: 0.000000; Setup: 0.904364; Compute: 0.183081; MPI: 0.103742; Total: 1.087445;
+[R14] Times: IO: 0.000000; Setup: 0.904347; Compute: 0.183343; MPI: 0.106596; Total: 1.087692;
+[R13] Times: IO: 0.000000; Setup: 0.904518; Compute: 0.184005; MPI: 0.111656; Total: 1.088523;
+[R12] Times: IO: 0.000000; Setup: 0.904501; Compute: 0.184405; MPI: 0.116130; Total: 1.088906;
+[R11] Times: IO: 0.000000; Setup: 0.904529; Compute: 0.184729; MPI: 0.120465; Total: 1.089258;
+[R10] Times: IO: 0.000000; Setup: 0.903637; Compute: 0.185112; MPI: 0.120059; Total: 1.088749;
+[R09] Times: IO: 0.000000; Setup: 0.904517; Compute: 0.185438; MPI: 0.129632; Total: 1.089955;
+[R08] Times: IO: 0.000000; Setup: 0.903588; Compute: 0.185855; MPI: 0.137446; Total: 1.089444;
+[R07] Times: IO: 0.000000; Setup: 0.904516; Compute: 0.186193; MPI: 0.142885; Total: 1.090709;
+[R06] Times: IO: 0.000000; Setup: 0.904514; Compute: 0.186658; MPI: 0.147767; Total: 1.091173;
+[R05] Times: IO: 0.000000; Setup: 0.904452; Compute: 0.187158; MPI: 0.153973; Total: 1.091610;
+[R04] Times: IO: 0.000000; Setup: 0.904461; Compute: 0.187669; MPI: 0.159750; Total: 1.092130;
+[R03] Times: IO: 0.000000; Setup: 0.902988; Compute: 0.188833; MPI: 0.167081; Total: 1.091821;
+[R02] Times: IO: 0.000000; Setup: 0.902864; Compute: 0.190301; MPI: 0.174481; Total: 1.093165;
+[R01] Times: IO: 0.000000; Setup: 0.899710; Compute: 0.193944; MPI: 0.183977; Total: 1.093655;
+[R00] Times: IO: 0.879669; Setup: 0.008092; Compute: 0.188778; MPI: 0.184113; Total: 1.096335;
+Sat Dec 15 16:01:24 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size2048x2048.mat"
+READ:  RHS      (b) file name: "./ge_data/size2048x2048.vec"
+WRITE: Solution (x) file name: "./ge_data/size2048x2048.sol"
+[R63] Times: IO: 0.000000; Setup: 1.045913; Compute: 0.784840; MPI: 0.716451; Total: 1.830754;
+[R62] Times: IO: 0.000000; Setup: 1.038817; Compute: 0.792062; MPI: 0.725213; Total: 1.830880;
+[R61] Times: IO: 0.000000; Setup: 1.038872; Compute: 0.792241; MPI: 0.728090; Total: 1.831113;
+[R60] Times: IO: 0.000000; Setup: 1.038869; Compute: 0.792447; MPI: 0.727957; Total: 1.831316;
+[R59] Times: IO: 0.000000; Setup: 1.038864; Compute: 0.792623; MPI: 0.727699; Total: 1.831489;
+[R58] Times: IO: 0.000000; Setup: 1.038749; Compute: 0.792808; MPI: 0.725637; Total: 1.831557;
+[R57] Times: IO: 0.000000; Setup: 1.039368; Compute: 0.792238; MPI: 0.727334; Total: 1.831606;
+[R56] Times: IO: 0.000000; Setup: 1.038625; Compute: 0.793204; MPI: 0.731972; Total: 1.831829;
+[R55] Times: IO: 0.000000; Setup: 1.038614; Compute: 0.793399; MPI: 0.730663; Total: 1.832014;
+[R54] Times: IO: 0.000000; Setup: 1.038602; Compute: 0.793580; MPI: 0.731114; Total: 1.832183;
+[R53] Times: IO: 0.000000; Setup: 1.038580; Compute: 0.793777; MPI: 0.735739; Total: 1.832359;
+[R52] Times: IO: 0.000000; Setup: 1.038549; Compute: 0.793991; MPI: 0.735274; Total: 1.832542;
+[R51] Times: IO: 0.000000; Setup: 1.038509; Compute: 0.794199; MPI: 0.738562; Total: 1.832709;
+[R50] Times: IO: 0.000000; Setup: 1.038468; Compute: 0.794414; MPI: 0.737980; Total: 1.832882;
+[R49] Times: IO: 0.000000; Setup: 1.038445; Compute: 0.794607; MPI: 0.736736; Total: 1.833052;
+[R48] Times: IO: 0.000000; Setup: 1.037785; Compute: 0.794841; MPI: 0.732173; Total: 1.832627;
+[R47] Times: IO: 0.000000; Setup: 1.037915; Compute: 0.795074; MPI: 0.744242; Total: 1.832991;
+[R46] Times: IO: 0.000000; Setup: 1.037839; Compute: 0.795331; MPI: 0.746228; Total: 1.833171;
+[R45] Times: IO: 0.000000; Setup: 1.037706; Compute: 0.795595; MPI: 0.747179; Total: 1.833301;
+[R44] Times: IO: 0.000000; Setup: 1.037665; Compute: 0.795893; MPI: 0.746606; Total: 1.833558;
+[R43] Times: IO: 0.000000; Setup: 1.037606; Compute: 0.796158; MPI: 0.748650; Total: 1.833765;
+[R42] Times: IO: 0.000000; Setup: 1.037456; Compute: 0.796502; MPI: 0.748596; Total: 1.833958;
+[R41] Times: IO: 0.000000; Setup: 1.037336; Compute: 0.796846; MPI: 0.749997; Total: 1.834183;
+[R40] Times: IO: 0.000000; Setup: 1.037394; Compute: 0.797098; MPI: 0.752599; Total: 1.834492;
+[R39] Times: IO: 0.000000; Setup: 1.037377; Compute: 0.797346; MPI: 0.753499; Total: 1.834723;
+[R38] Times: IO: 0.000000; Setup: 1.037249; Compute: 0.797675; MPI: 0.754052; Total: 1.834924;
+[R37] Times: IO: 0.000000; Setup: 1.037084; Compute: 0.798042; MPI: 0.754957; Total: 1.835126;
+[R36] Times: IO: 0.000000; Setup: 1.036790; Compute: 0.798443; MPI: 0.756964; Total: 1.835233;
+[R35] Times: IO: 0.000000; Setup: 1.036692; Compute: 0.798745; MPI: 0.756712; Total: 1.835438;
+[R34] Times: IO: 0.000000; Setup: 1.036581; Compute: 0.799062; MPI: 0.759132; Total: 1.835643;
+[R33] Times: IO: 0.000000; Setup: 1.036476; Compute: 0.799374; MPI: 0.760494; Total: 1.835850;
+[R32] Times: IO: 0.000000; Setup: 1.036504; Compute: 0.799593; MPI: 0.758422; Total: 1.836098;
+[R31] Times: IO: 0.000000; Setup: 1.035880; Compute: 0.800197; MPI: 0.760388; Total: 1.836077;
+[R30] Times: IO: 0.000000; Setup: 1.035757; Compute: 0.800542; MPI: 0.761352; Total: 1.836299;
+[R29] Times: IO: 0.000000; Setup: 1.035547; Compute: 0.800892; MPI: 0.762058; Total: 1.836439;
+[R28] Times: IO: 0.000000; Setup: 1.035402; Compute: 0.801311; MPI: 0.763458; Total: 1.836714;
+[R27] Times: IO: 0.000000; Setup: 1.035270; Compute: 0.801658; MPI: 0.763294; Total: 1.836928;
+[R26] Times: IO: 0.000000; Setup: 1.035145; Compute: 0.802053; MPI: 0.765237; Total: 1.837198;
+[R25] Times: IO: 0.000000; Setup: 1.034825; Compute: 0.802550; MPI: 0.767592; Total: 1.837376;
+[R24] Times: IO: 0.000000; Setup: 1.034980; Compute: 0.802862; MPI: 0.767392; Total: 1.837844;
+[R23] Times: IO: 0.000000; Setup: 1.035036; Compute: 0.803047; MPI: 0.767922; Total: 1.838083;
+[R22] Times: IO: 0.000000; Setup: 1.034789; Compute: 0.803526; MPI: 0.771414; Total: 1.838315;
+[R21] Times: IO: 0.000000; Setup: 1.034696; Compute: 0.803865; MPI: 0.772462; Total: 1.838561;
+[R20] Times: IO: 0.000000; Setup: 1.034706; Compute: 0.804003; MPI: 0.774887; Total: 1.838711;
+[R19] Times: IO: 0.000000; Setup: 1.034389; Compute: 0.804535; MPI: 0.776213; Total: 1.838924;
+[R18] Times: IO: 0.000000; Setup: 1.034365; Compute: 0.804817; MPI: 0.777257; Total: 1.839183;
+[R17] Times: IO: 0.000000; Setup: 1.034218; Compute: 0.805200; MPI: 0.778773; Total: 1.839418;
+[R16] Times: IO: 0.000000; Setup: 1.034103; Compute: 0.805582; MPI: 0.779473; Total: 1.839686;
+[R15] Times: IO: 0.000000; Setup: 1.040830; Compute: 0.805632; MPI: 0.782747; Total: 1.846464;
+[R14] Times: IO: 0.000000; Setup: 1.040853; Compute: 0.805887; MPI: 0.783614; Total: 1.846742;
+[R13] Times: IO: 0.000000; Setup: 1.040872; Compute: 0.806615; MPI: 0.786540; Total: 1.847489;
+[R12] Times: IO: 0.000000; Setup: 1.040871; Compute: 0.806936; MPI: 0.787929; Total: 1.847807;
+[R11] Times: IO: 0.000000; Setup: 1.040858; Compute: 0.807209; MPI: 0.789755; Total: 1.848068;
+[R10] Times: IO: 0.000000; Setup: 1.040793; Compute: 0.807544; MPI: 0.790823; Total: 1.848337;
+[R09] Times: IO: 0.000000; Setup: 1.040701; Compute: 0.807727; MPI: 0.793534; Total: 1.848428;
+[R08] Times: IO: 0.000000; Setup: 1.040700; Compute: 0.808016; MPI: 0.795309; Total: 1.848716;
+[R07] Times: IO: 0.000000; Setup: 1.040616; Compute: 0.808360; MPI: 0.796884; Total: 1.848976;
+[R06] Times: IO: 0.000000; Setup: 1.040350; Compute: 0.808758; MPI: 0.798601; Total: 1.849108;
+[R05] Times: IO: 0.000000; Setup: 1.040430; Compute: 0.809093; MPI: 0.800348; Total: 1.849523;
+[R04] Times: IO: 0.000000; Setup: 1.040428; Compute: 0.809391; MPI: 0.802118; Total: 1.849819;
+[R03] Times: IO: 0.000000; Setup: 1.038705; Compute: 0.811635; MPI: 0.805874; Total: 1.850340;
+[R02] Times: IO: 0.000000; Setup: 1.038435; Compute: 0.812182; MPI: 0.808007; Total: 1.850617;
+[R01] Times: IO: 0.000000; Setup: 1.038383; Compute: 0.812501; MPI: 0.809820; Total: 1.850884;
+[R00] Times: IO: 0.879040; Setup: 0.148891; Compute: 0.807958; MPI: 0.805887; Total: 1.853610;
+Sat Dec 15 16:01:29 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size4096x4096.mat"
+READ:  RHS      (b) file name: "./ge_data/size4096x4096.vec"
+WRITE: Solution (x) file name: "./ge_data/size4096x4096.sol"
+[R07] Times: IO: 0.000000; Setup: 3.602107; Compute: 6.970888; MPI: 1.167498; Total: 10.572996;
+[R06] Times: IO: 0.000000; Setup: 3.601996; Compute: 6.973454; MPI: 1.351822; Total: 10.575450;
+[R05] Times: IO: 0.000000; Setup: 3.599767; Compute: 6.978931; MPI: 2.058179; Total: 10.578698;
+[R04] Times: IO: 0.000000; Setup: 3.599542; Compute: 6.984024; MPI: 2.335572; Total: 10.583567;
+[R03] Times: IO: 0.000000; Setup: 3.600055; Compute: 6.990179; MPI: 3.388940; Total: 10.590234;
+[R02] Times: IO: 0.000000; Setup: 3.599992; Compute: 6.998682; MPI: 4.031400; Total: 10.598675;
+[R01] Times: IO: 0.000000; Setup: 3.594960; Compute: 7.013303; MPI: 5.778303; Total: 10.608264;
+[R00] Times: IO: 3.514025; Setup: 0.010618; Compute: 7.032582; MPI: 6.562213; Total: 10.625568;
+Sat Dec 15 16:01:40 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size4096x4096.mat"
+READ:  RHS      (b) file name: "./ge_data/size4096x4096.vec"
+WRITE: Solution (x) file name: "./ge_data/size4096x4096.sol"
+[R15] Times: IO: 0.000000; Setup: 3.611821; Compute: 6.222130; MPI: 4.443048; Total: 9.833952;
+[R14] Times: IO: 0.000000; Setup: 3.611766; Compute: 6.222738; MPI: 4.437309; Total: 9.834504;
+[R13] Times: IO: 0.000000; Setup: 3.624284; Compute: 6.210907; MPI: 0.444792; Total: 9.835191;
+[R12] Times: IO: 0.000000; Setup: 3.624591; Compute: 6.211880; MPI: 0.435197; Total: 9.836471;
+[R11] Times: IO: 0.000000; Setup: 3.624599; Compute: 6.213398; MPI: 0.488811; Total: 9.837998;
+[R10] Times: IO: 0.000000; Setup: 3.624569; Compute: 6.215258; MPI: 0.594831; Total: 9.839828;
+[R09] Times: IO: 0.000000; Setup: 3.624614; Compute: 6.217362; MPI: 0.816383; Total: 9.841977;
+[R08] Times: IO: 0.000000; Setup: 3.618801; Compute: 6.224921; MPI: 3.027231; Total: 9.843722;
+[R07] Times: IO: 0.000000; Setup: 3.616999; Compute: 6.229562; MPI: 3.144137; Total: 9.846561;
+[R06] Times: IO: 0.000000; Setup: 3.614839; Compute: 6.234742; MPI: 3.250482; Total: 9.849581;
+[R05] Times: IO: 0.000000; Setup: 3.619047; Compute: 6.234000; MPI: 3.525929; Total: 9.853048;
+[R04] Times: IO: 0.000000; Setup: 3.623291; Compute: 6.233045; MPI: 4.764796; Total: 9.856336;
+[R03] Times: IO: 0.000000; Setup: 3.623310; Compute: 6.237108; MPI: 4.929594; Total: 9.860420;
+[R02] Times: IO: 0.000000; Setup: 3.622668; Compute: 6.242005; MPI: 5.133344; Total: 9.864675;
+[R01] Times: IO: 0.000000; Setup: 3.609412; Compute: 6.260290; MPI: 5.532521; Total: 9.869703;
+[R00] Times: IO: 3.511948; Setup: 0.007304; Compute: 6.288780; MPI: 6.160905; Total: 9.879768;
+Sat Dec 15 16:01:52 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size4096x4096.mat"
+READ:  RHS      (b) file name: "./ge_data/size4096x4096.vec"
+WRITE: Solution (x) file name: "./ge_data/size4096x4096.sol"
+[R31] Times: IO: 0.000000; Setup: 3.639224; Compute: 1.611246; MPI: 0.775632; Total: 5.250471;
+[R30] Times: IO: 0.000000; Setup: 3.612156; Compute: 1.638485; MPI: 0.799608; Total: 5.250641;
+[R29] Times: IO: 0.000000; Setup: 3.612140; Compute: 1.638747; MPI: 0.422502; Total: 5.250887;
+[R28] Times: IO: 0.000000; Setup: 3.612620; Compute: 1.639472; MPI: 0.445563; Total: 5.252093;
+[R27] Times: IO: 0.000000; Setup: 3.612880; Compute: 1.639592; MPI: 0.454252; Total: 5.252473;
+[R26] Times: IO: 0.000000; Setup: 3.612763; Compute: 1.640203; MPI: 0.425335; Total: 5.252966;
+[R25] Times: IO: 0.000000; Setup: 3.640090; Compute: 1.613391; MPI: 0.411249; Total: 5.253481;
+[R24] Times: IO: 0.000000; Setup: 3.612541; Compute: 1.641449; MPI: 0.446161; Total: 5.253990;
+[R23] Times: IO: 0.000000; Setup: 3.612374; Compute: 1.642189; MPI: 0.464741; Total: 5.254563;
+[R22] Times: IO: 0.000000; Setup: 3.640055; Compute: 1.615202; MPI: 0.465140; Total: 5.255257;
+[R21] Times: IO: 0.000000; Setup: 3.611789; Compute: 1.644324; MPI: 0.504456; Total: 5.256113;
+[R20] Times: IO: 0.000000; Setup: 3.611353; Compute: 1.645712; MPI: 0.572896; Total: 5.257066;
+[R19] Times: IO: 0.000000; Setup: 3.610336; Compute: 1.647600; MPI: 0.880001; Total: 5.257937;
+[R18] Times: IO: 0.000000; Setup: 3.608832; Compute: 1.649916; MPI: 0.898530; Total: 5.258749;
+[R17] Times: IO: 0.000000; Setup: 3.606454; Compute: 1.653338; MPI: 0.911581; Total: 5.259792;
+[R16] Times: IO: 0.000000; Setup: 3.603692; Compute: 1.657311; MPI: 0.936190; Total: 5.261003;
+[R15] Times: IO: 0.000000; Setup: 3.605136; Compute: 1.657314; MPI: 1.012136; Total: 5.262453;
+[R14] Times: IO: 0.000000; Setup: 3.605148; Compute: 1.658430; MPI: 1.040251; Total: 5.263580;
+[R13] Times: IO: 0.000000; Setup: 3.606178; Compute: 1.658508; MPI: 0.744393; Total: 5.264686;
+[R12] Times: IO: 0.000000; Setup: 3.605151; Compute: 1.659796; MPI: 0.779287; Total: 5.264948;
+[R11] Times: IO: 0.000000; Setup: 3.606153; Compute: 1.661441; MPI: 0.812063; Total: 5.267595;
+[R10] Times: IO: 0.000000; Setup: 3.606207; Compute: 1.663215; MPI: 0.859030; Total: 5.269423;
+[R09] Times: IO: 0.000000; Setup: 3.605296; Compute: 1.665036; MPI: 0.883065; Total: 5.270332;
+[R08] Times: IO: 0.000000; Setup: 3.606297; Compute: 1.666194; MPI: 1.199980; Total: 5.272491;
+[R07] Times: IO: 0.000000; Setup: 3.606299; Compute: 1.667621; MPI: 1.258952; Total: 5.273920;
+[R06] Times: IO: 0.000000; Setup: 3.606306; Compute: 1.669518; MPI: 1.306320; Total: 5.275824;
+[R05] Times: IO: 0.000000; Setup: 3.605434; Compute: 1.671546; MPI: 1.353158; Total: 5.276981;
+[R04] Times: IO: 0.000000; Setup: 3.605439; Compute: 1.673968; MPI: 1.429438; Total: 5.279409;
+[R03] Times: IO: 0.000000; Setup: 3.604803; Compute: 1.676424; MPI: 1.479375; Total: 5.281227;
+[R02] Times: IO: 0.000000; Setup: 3.604298; Compute: 1.679169; MPI: 1.532831; Total: 5.283469;
+[R01] Times: IO: 0.000000; Setup: 3.600959; Compute: 1.684970; MPI: 1.588567; Total: 5.285930;
+[R00] Times: IO: 3.507961; Setup: 0.032758; Compute: 1.680017; MPI: 1.645630; Total: 5.293579;
+Sat Dec 15 16:01:59 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size4096x4096.mat"
+READ:  RHS      (b) file name: "./ge_data/size4096x4096.vec"
+WRITE: Solution (x) file name: "./ge_data/size4096x4096.sol"
+[R63] Times: IO: 0.000000; Setup: 3.766267; Compute: 1.120936; MPI: 0.634274; Total: 4.887204;
+[R62] Times: IO: 0.000000; Setup: 3.765631; Compute: 1.121129; MPI: 0.627959; Total: 4.886761;
+[R61] Times: IO: 0.000000; Setup: 3.737184; Compute: 1.150420; MPI: 0.675340; Total: 4.887606;
+[R60] Times: IO: 0.000000; Setup: 3.737141; Compute: 1.150679; MPI: 0.675359; Total: 4.887820;
+[R59] Times: IO: 0.000000; Setup: 3.737174; Compute: 1.150925; MPI: 0.667696; Total: 4.888100;
+[R58] Times: IO: 0.000000; Setup: 3.737157; Compute: 1.151171; MPI: 0.668096; Total: 4.888328;
+[R57] Times: IO: 0.000000; Setup: 3.740013; Compute: 1.148550; MPI: 0.676574; Total: 4.888563;
+[R56] Times: IO: 0.000000; Setup: 3.737005; Compute: 1.151727; MPI: 0.669337; Total: 4.888733;
+[R55] Times: IO: 0.000000; Setup: 3.736990; Compute: 1.152031; MPI: 0.681972; Total: 4.889021;
+[R54] Times: IO: 0.000000; Setup: 3.736978; Compute: 1.152333; MPI: 0.684079; Total: 4.889311;
+[R53] Times: IO: 0.000000; Setup: 3.736945; Compute: 1.152643; MPI: 0.700244; Total: 4.889589;
+[R52] Times: IO: 0.000000; Setup: 3.736897; Compute: 1.152997; MPI: 0.692804; Total: 4.889895;
+[R51] Times: IO: 0.000000; Setup: 3.737004; Compute: 1.153389; MPI: 0.708484; Total: 4.890393;
+[R50] Times: IO: 0.000000; Setup: 3.736938; Compute: 1.153726; MPI: 0.698583; Total: 4.890665;
+[R49] Times: IO: 0.000000; Setup: 3.736898; Compute: 1.154076; MPI: 0.714538; Total: 4.890975;
+[R48] Times: IO: 0.000000; Setup: 3.736876; Compute: 1.154455; MPI: 0.693107; Total: 4.891331;
+[R47] Times: IO: 0.000000; Setup: 3.733989; Compute: 1.154948; MPI: 0.705436; Total: 4.888937;
+[R46] Times: IO: 0.000000; Setup: 3.733943; Compute: 1.155388; MPI: 0.711547; Total: 4.889331;
+[R45] Times: IO: 0.000000; Setup: 3.733794; Compute: 1.155956; MPI: 0.712247; Total: 4.889750;
+[R44] Times: IO: 0.000000; Setup: 3.733713; Compute: 1.156503; MPI: 0.716403; Total: 4.890216;
+[R43] Times: IO: 0.000000; Setup: 3.737274; Compute: 1.153380; MPI: 0.721833; Total: 4.890654;
+[R42] Times: IO: 0.000000; Setup: 3.733496; Compute: 1.157651; MPI: 0.726523; Total: 4.891147;
+[R41] Times: IO: 0.000000; Setup: 3.733376; Compute: 1.158269; MPI: 0.735839; Total: 4.891646;
+[R40] Times: IO: 0.000000; Setup: 3.733229; Compute: 1.158903; MPI: 0.740580; Total: 4.892133;
+[R39] Times: IO: 0.000000; Setup: 3.733117; Compute: 1.159516; MPI: 0.741423; Total: 4.892633;
+[R38] Times: IO: 0.000000; Setup: 3.732883; Compute: 1.160268; MPI: 0.746231; Total: 4.893151;
+[R37] Times: IO: 0.000000; Setup: 3.732740; Compute: 1.160988; MPI: 0.767504; Total: 4.893729;
+[R36] Times: IO: 0.000000; Setup: 3.732518; Compute: 1.161803; MPI: 0.763224; Total: 4.894323;
+[R35] Times: IO: 0.000000; Setup: 3.732296; Compute: 1.162684; MPI: 0.761997; Total: 4.894981;
+[R34] Times: IO: 0.000000; Setup: 3.732089; Compute: 1.163388; MPI: 0.778175; Total: 4.895477;
+[R33] Times: IO: 0.000000; Setup: 3.731806; Compute: 1.164262; MPI: 0.807248; Total: 4.896068;
+[R32] Times: IO: 0.000000; Setup: 3.731562; Compute: 1.165149; MPI: 0.790617; Total: 4.896711;
+[R31] Times: IO: 0.000000; Setup: 3.731848; Compute: 1.166076; MPI: 0.811011; Total: 4.897925;
+[R30] Times: IO: 0.000000; Setup: 3.731509; Compute: 1.167081; MPI: 0.830153; Total: 4.898591;
+[R29] Times: IO: 0.000000; Setup: 3.730687; Compute: 1.168562; MPI: 0.829088; Total: 4.899250;
+[R28] Times: IO: 0.000000; Setup: 3.730203; Compute: 1.169723; MPI: 0.840490; Total: 4.899926;
+[R27] Times: IO: 0.000000; Setup: 3.729583; Compute: 1.171086; MPI: 0.847602; Total: 4.900671;
+[R26] Times: IO: 0.000000; Setup: 3.728967; Compute: 1.172438; MPI: 0.852785; Total: 4.901407;
+[R25] Times: IO: 0.000000; Setup: 3.737759; Compute: 1.164188; MPI: 0.860738; Total: 4.901947;
+[R24] Times: IO: 0.000000; Setup: 3.726608; Compute: 1.176027; MPI: 0.878039; Total: 4.902635;
+[R23] Times: IO: 0.000000; Setup: 3.725461; Compute: 1.177950; MPI: 0.893787; Total: 4.903412;
+[R22] Times: IO: 0.000000; Setup: 3.724498; Compute: 1.179914; MPI: 0.918014; Total: 4.904414;
+[R21] Times: IO: 0.000000; Setup: 3.723793; Compute: 1.181430; MPI: 0.920502; Total: 4.905224;
+[R20] Times: IO: 0.000000; Setup: 3.722900; Compute: 1.183239; MPI: 0.937457; Total: 4.906139;
+[R19] Times: IO: 0.000000; Setup: 3.722297; Compute: 1.184647; MPI: 0.943662; Total: 4.906944;
+[R18] Times: IO: 0.000000; Setup: 3.722031; Compute: 1.185499; MPI: 0.960406; Total: 4.907532;
+[R17] Times: IO: 0.000000; Setup: 3.721434; Compute: 1.187173; MPI: 0.966309; Total: 4.908608;
+[R16] Times: IO: 0.000000; Setup: 3.719870; Compute: 1.188713; MPI: 0.971468; Total: 4.908583;
+[R15] Times: IO: 0.000000; Setup: 3.727718; Compute: 1.189134; MPI: 0.998559; Total: 4.916853;
+[R14] Times: IO: 0.000000; Setup: 3.727703; Compute: 1.190012; MPI: 1.009388; Total: 4.917716;
+[R13] Times: IO: 0.000000; Setup: 3.727998; Compute: 1.190687; MPI: 1.018592; Total: 4.918685;
+[R12] Times: IO: 0.000000; Setup: 3.727947; Compute: 1.191741; MPI: 1.031827; Total: 4.919689;
+[R11] Times: IO: 0.000000; Setup: 3.728018; Compute: 1.192782; MPI: 1.042322; Total: 4.920800;
+[R10] Times: IO: 0.000000; Setup: 3.727987; Compute: 1.193902; MPI: 1.054231; Total: 4.921891;
+[R09] Times: IO: 0.000000; Setup: 3.728019; Compute: 1.194947; MPI: 1.066738; Total: 4.922968;
+[R08] Times: IO: 0.000000; Setup: 3.728015; Compute: 1.196057; MPI: 1.077365; Total: 4.924073;
+[R07] Times: IO: 0.000000; Setup: 3.728018; Compute: 1.197239; MPI: 1.090594; Total: 4.925258;
+[R06] Times: IO: 0.000000; Setup: 3.727804; Compute: 1.198487; MPI: 1.107665; Total: 4.926291;
+[R05] Times: IO: 0.000000; Setup: 3.727772; Compute: 1.199622; MPI: 1.121258; Total: 4.927395;
+[R04] Times: IO: 0.000000; Setup: 3.727737; Compute: 1.200900; MPI: 1.136854; Total: 4.928637;
+[R03] Times: IO: 0.000000; Setup: 3.727449; Compute: 1.202578; MPI: 1.154114; Total: 4.930029;
+[R02] Times: IO: 0.000000; Setup: 3.726634; Compute: 1.204448; MPI: 1.169235; Total: 4.931083;
+[R01] Times: IO: 0.000000; Setup: 3.721714; Compute: 1.210693; MPI: 1.188389; Total: 4.932408;
+[R00] Times: IO: 3.505146; Setup: 0.164446; Compute: 1.199931; MPI: 1.188149; Total: 4.939050;
+Sat Dec 15 16:02:06 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size8192x8192.mat"
+READ:  RHS      (b) file name: "./ge_data/size8192x8192.vec"
+WRITE: Solution (x) file name: "./ge_data/size8192x8192.sol"
+[R07] Times: IO: 0.000000; Setup: 14.329759; Compute: 63.261386; MPI: 16.798323; Total: 77.591145;
+[R06] Times: IO: 0.000000; Setup: 14.331359; Compute: 63.281374; MPI: 18.441088; Total: 77.612734;
+[R05] Times: IO: 0.000000; Setup: 14.329137; Compute: 63.318733; MPI: 22.310784; Total: 77.647870;
+[R04] Times: IO: 0.000000; Setup: 14.327950; Compute: 63.368601; MPI: 26.241394; Total: 77.696551;
+[R03] Times: IO: 0.000000; Setup: 14.326209; Compute: 63.434821; MPI: 32.884865; Total: 77.761030;
+[R02] Times: IO: 0.000000; Setup: 14.326497; Compute: 63.514695; MPI: 39.099909; Total: 77.841193;
+[R01] Times: IO: 0.000000; Setup: 14.319026; Compute: 63.614042; MPI: 50.136184; Total: 77.933068;
+[R00] Times: IO: 14.024438; Setup: 0.039302; Compute: 63.729332; MPI: 58.935008; Total: 78.065900;
+Sat Dec 15 16:03:25 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size8192x8192.mat"
+READ:  RHS      (b) file name: "./ge_data/size8192x8192.vec"
+WRITE: Solution (x) file name: "./ge_data/size8192x8192.sol"
+[R15] Times: IO: 0.000000; Setup: 14.388976; Compute: 51.361808; MPI: 28.001608; Total: 65.750786;
+[R14] Times: IO: 0.000000; Setup: 14.395506; Compute: 51.360054; MPI: 28.160065; Total: 65.755561;
+[R13] Times: IO: 0.000000; Setup: 14.401734; Compute: 51.361206; MPI: 3.777534; Total: 65.762941;
+[R12] Times: IO: 0.000000; Setup: 14.398049; Compute: 51.375756; MPI: 4.253563; Total: 65.773805;
+[R11] Times: IO: 0.000000; Setup: 14.401798; Compute: 51.386340; MPI: 4.946892; Total: 65.788139;
+[R10] Times: IO: 0.000000; Setup: 14.400254; Compute: 51.405956; MPI: 6.327403; Total: 65.806211;
+[R09] Times: IO: 0.000000; Setup: 14.401828; Compute: 51.425110; MPI: 8.379260; Total: 65.826940;
+[R08] Times: IO: 0.000000; Setup: 14.397423; Compute: 51.454095; MPI: 23.414458; Total: 65.851519;
+[R07] Times: IO: 0.000000; Setup: 14.397748; Compute: 51.482971; MPI: 24.504330; Total: 65.880719;
+[R06] Times: IO: 0.000000; Setup: 14.396651; Compute: 51.516643; MPI: 26.182204; Total: 65.913294;
+[R05] Times: IO: 0.000000; Setup: 14.397890; Compute: 51.551762; MPI: 28.699860; Total: 65.949652;
+[R04] Times: IO: 0.000000; Setup: 14.400181; Compute: 51.588020; MPI: 37.559163; Total: 65.988201;
+[R03] Times: IO: 0.000000; Setup: 14.400169; Compute: 51.630081; MPI: 39.527619; Total: 66.030250;
+[R02] Times: IO: 0.000000; Setup: 14.400233; Compute: 51.674939; MPI: 42.125311; Total: 66.075173;
+[R01] Times: IO: 0.000000; Setup: 14.392829; Compute: 51.730361; MPI: 45.542960; Total: 66.123191;
+[R00] Times: IO: 14.011581; Setup: 0.025474; Compute: 51.860002; MPI: 50.671515; Total: 66.180345;
+Sat Dec 15 16:04:33 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size8192x8192.mat"
+READ:  RHS      (b) file name: "./ge_data/size8192x8192.vec"
+WRITE: Solution (x) file name: "./ge_data/size8192x8192.sol"
+[R31] Times: IO: 0.000000; Setup: 14.646823; Compute: 26.225948; MPI: 15.549102; Total: 40.872772;
+[R30] Times: IO: 0.000000; Setup: 14.644610; Compute: 26.228835; MPI: 15.309840; Total: 40.873447;
+[R29] Times: IO: 0.000000; Setup: 14.574858; Compute: 26.300226; MPI: 0.807212; Total: 40.875085;
+[R28] Times: IO: 0.000000; Setup: 14.332825; Compute: 26.543621; MPI: 1.128609; Total: 40.876447;
+[R27] Times: IO: 0.000000; Setup: 14.331389; Compute: 26.546968; MPI: 1.037907; Total: 40.878357;
+[R26] Times: IO: 0.000000; Setup: 14.326449; Compute: 26.554304; MPI: 1.038712; Total: 40.880755;
+[R25] Times: IO: 0.000000; Setup: 14.317554; Compute: 26.565757; MPI: 1.305270; Total: 40.883311;
+[R24] Times: IO: 0.000000; Setup: 14.312220; Compute: 26.573453; MPI: 3.352104; Total: 40.885673;
+[R23] Times: IO: 0.000000; Setup: 14.306486; Compute: 26.582357; MPI: 3.521896; Total: 40.888843;
+[R22] Times: IO: 0.000000; Setup: 14.305259; Compute: 26.586826; MPI: 3.844756; Total: 40.892085;
+[R21] Times: IO: 0.000000; Setup: 14.303978; Compute: 26.591597; MPI: 4.398199; Total: 40.895575;
+[R20] Times: IO: 0.000000; Setup: 14.302631; Compute: 26.596969; MPI: 4.476079; Total: 40.899602;
+[R19] Times: IO: 0.000000; Setup: 14.304077; Compute: 26.599333; MPI: 10.390573; Total: 40.903410;
+[R18] Times: IO: 0.000000; Setup: 14.300947; Compute: 26.606908; MPI: 10.500976; Total: 40.907855;
+[R17] Times: IO: 0.000000; Setup: 14.297864; Compute: 26.614702; MPI: 10.812166; Total: 40.912567;
+[R16] Times: IO: 0.000000; Setup: 14.293577; Compute: 26.624245; MPI: 11.259520; Total: 40.917823;
+[R15] Times: IO: 0.000000; Setup: 14.318877; Compute: 26.604373; MPI: 18.270155; Total: 40.923251;
+[R14] Times: IO: 0.000000; Setup: 14.317994; Compute: 26.610541; MPI: 18.398523; Total: 40.928535;
+[R13] Times: IO: 0.000000; Setup: 14.320853; Compute: 26.614457; MPI: 11.590174; Total: 40.935310;
+[R12] Times: IO: 0.000000; Setup: 14.320952; Compute: 26.620911; MPI: 11.866024; Total: 40.941863;
+[R11] Times: IO: 0.000000; Setup: 14.320883; Compute: 26.627680; MPI: 12.321276; Total: 40.948564;
+[R10] Times: IO: 0.000000; Setup: 14.320886; Compute: 26.634550; MPI: 13.054010; Total: 40.955438;
+[R09] Times: IO: 0.000000; Setup: 14.320904; Compute: 26.641865; MPI: 13.881771; Total: 40.962770;
+[R08] Times: IO: 0.000000; Setup: 14.317955; Compute: 26.652046; MPI: 18.819865; Total: 40.970002;
+[R07] Times: IO: 0.000000; Setup: 14.317842; Compute: 26.660619; MPI: 19.178478; Total: 40.978461;
+[R06] Times: IO: 0.000000; Setup: 14.318815; Compute: 26.669068; MPI: 19.740103; Total: 40.987884;
+[R05] Times: IO: 0.000000; Setup: 14.318867; Compute: 26.677789; MPI: 20.547321; Total: 40.996657;
+[R04] Times: IO: 0.000000; Setup: 14.317971; Compute: 26.686920; MPI: 23.222027; Total: 41.004891;
+[R03] Times: IO: 0.000000; Setup: 14.316584; Compute: 26.698383; MPI: 23.603153; Total: 41.014968;
+[R02] Times: IO: 0.000000; Setup: 14.316555; Compute: 26.707977; MPI: 24.268780; Total: 41.024532;
+[R01] Times: IO: 0.000000; Setup: 14.309959; Compute: 26.724587; MPI: 25.201747; Total: 41.034547;
+[R00] Times: IO: 13.989495; Setup: 0.070184; Compute: 26.714823; MPI: 26.459791; Total: 41.056220;
+Sat Dec 15 16:05:16 CET 2018
+Solving the Ax=b system with Gaussian Elimination:
+READ:  Matrix   (A) file name: "./ge_data/size8192x8192.mat"
+READ:  RHS      (b) file name: "./ge_data/size8192x8192.vec"
+WRITE: Solution (x) file name: "./ge_data/size8192x8192.sol"
+[R63] Times: IO: 0.000000; Setup: 14.660574; Compute: 12.749556; MPI: 8.998246; Total: 27.410131;
+[R62] Times: IO: 0.000000; Setup: 14.543135; Compute: 12.866653; MPI: 9.184484; Total: 27.409788;
+[R61] Times: IO: 0.000000; Setup: 14.543747; Compute: 12.866972; MPI: 1.097742; Total: 27.410720;
+[R60] Times: IO: 0.000000; Setup: 14.543728; Compute: 12.867471; MPI: 1.096504; Total: 27.411199;
+[R59] Times: IO: 0.000000; Setup: 14.543699; Compute: 12.868077; MPI: 1.086330; Total: 27.411776;
+[R58] Times: IO: 0.000000; Setup: 14.543658; Compute: 12.868725; MPI: 1.030612; Total: 27.412384;
+[R57] Times: IO: 0.000000; Setup: 14.543609; Compute: 12.869455; MPI: 1.059859; Total: 27.413064;
+[R56] Times: IO: 0.000000; Setup: 14.543525; Compute: 12.870172; MPI: 1.237808; Total: 27.413698;
+[R55] Times: IO: 0.000000; Setup: 14.543434; Compute: 12.871130; MPI: 1.332005; Total: 27.414564;
+[R54] Times: IO: 0.000000; Setup: 14.543329; Compute: 12.872247; MPI: 1.342261; Total: 27.415578;
+[R53] Times: IO: 0.000000; Setup: 14.543242; Compute: 12.873342; MPI: 1.306904; Total: 27.416586;
+[R52] Times: IO: 0.000000; Setup: 14.543110; Compute: 12.874610; MPI: 1.358185; Total: 27.417722;
+[R51] Times: IO: 0.000000; Setup: 14.542935; Compute: 12.875821; MPI: 4.283389; Total: 27.418756;
+[R50] Times: IO: 0.000000; Setup: 14.542829; Compute: 12.877140; MPI: 4.248111; Total: 27.419969;
+[R49] Times: IO: 0.000000; Setup: 14.542657; Compute: 12.878701; MPI: 4.361535; Total: 27.421359;
+[R48] Times: IO: 0.000000; Setup: 14.542267; Compute: 12.880306; MPI: 4.378438; Total: 27.422573;
+[R47] Times: IO: 0.000000; Setup: 14.543112; Compute: 12.881834; MPI: 9.322587; Total: 27.424947;
+[R46] Times: IO: 0.000000; Setup: 14.569535; Compute: 12.856144; MPI: 9.401020; Total: 27.425681;
+[R45] Times: IO: 0.000000; Setup: 14.542924; Compute: 12.884791; MPI: 2.251524; Total: 27.427716;
+[R44] Times: IO: 0.000000; Setup: 14.542580; Compute: 12.886907; MPI: 2.193394; Total: 27.429489;
+[R43] Times: IO: 0.000000; Setup: 14.542274; Compute: 12.889018; MPI: 2.223195; Total: 27.431292;
+[R42] Times: IO: 0.000000; Setup: 14.542030; Compute: 12.891164; MPI: 2.299297; Total: 27.433194;
+[R41] Times: IO: 0.000000; Setup: 14.570367; Compute: 12.864742; MPI: 2.476908; Total: 27.435109;
+[R40] Times: IO: 0.000000; Setup: 14.541004; Compute: 12.895504; MPI: 2.901719; Total: 27.436508;
+[R39] Times: IO: 0.000000; Setup: 14.540526; Compute: 12.898164; MPI: 2.968516; Total: 27.438690;
+[R38] Times: IO: 0.000000; Setup: 14.540043; Compute: 12.900859; MPI: 2.943022; Total: 27.440903;
+[R37] Times: IO: 0.000000; Setup: 14.539388; Compute: 12.903838; MPI: 2.987411; Total: 27.443226;
+[R36] Times: IO: 0.000000; Setup: 14.538778; Compute: 12.906824; MPI: 3.141077; Total: 27.445603;
+[R35] Times: IO: 0.000000; Setup: 14.537217; Compute: 12.910482; MPI: 5.776827; Total: 27.447701;
+[R34] Times: IO: 0.000000; Setup: 14.535806; Compute: 12.914357; MPI: 5.843549; Total: 27.450164;
+[R33] Times: IO: 0.000000; Setup: 14.534397; Compute: 12.918123; MPI: 5.890299; Total: 27.452520;
+[R32] Times: IO: 0.000000; Setup: 14.533075; Compute: 12.922217; MPI: 5.947887; Total: 27.455294;
+[R31] Times: IO: 0.000000; Setup: 14.533376; Compute: 12.927638; MPI: 10.106644; Total: 27.461014;
+[R30] Times: IO: 0.000000; Setup: 14.529605; Compute: 12.933512; MPI: 10.264871; Total: 27.463119;
+[R29] Times: IO: 0.000000; Setup: 14.534145; Compute: 12.931774; MPI: 4.768621; Total: 27.465919;
+[R28] Times: IO: 0.000000; Setup: 14.533661; Compute: 12.935237; MPI: 4.746316; Total: 27.468898;
+[R27] Times: IO: 0.000000; Setup: 14.529123; Compute: 12.942707; MPI: 4.836989; Total: 27.471831;
+[R26] Times: IO: 0.000000; Setup: 14.521503; Compute: 12.953389; MPI: 4.898367; Total: 27.474893;
+[R25] Times: IO: 0.000000; Setup: 14.499394; Compute: 12.978527; MPI: 5.283613; Total: 27.477923;
+[R24] Times: IO: 0.000000; Setup: 14.497852; Compute: 12.982728; MPI: 7.400575; Total: 27.480580;
+[R23] Times: IO: 0.000000; Setup: 14.497604; Compute: 12.986464; MPI: 7.483690; Total: 27.484070;
+[R22] Times: IO: 0.000000; Setup: 14.497197; Compute: 12.990091; MPI: 7.558175; Total: 27.487289;
+[R21] Times: IO: 0.000000; Setup: 14.496630; Compute: 12.994255; MPI: 7.828878; Total: 27.490886;
+[R20] Times: IO: 0.000000; Setup: 14.498442; Compute: 12.995323; MPI: 7.008369; Total: 27.493767;
+[R19] Times: IO: 0.000000; Setup: 14.496296; Compute: 13.000941; MPI: 7.100780; Total: 27.497238;
+[R18] Times: IO: 0.000000; Setup: 14.496008; Compute: 13.004754; MPI: 7.108380; Total: 27.500763;
+[R17] Times: IO: 0.000000; Setup: 14.489511; Compute: 13.014829; MPI: 7.307832; Total: 27.504340;
+[R16] Times: IO: 0.000000; Setup: 14.486355; Compute: 13.021150; MPI: 7.554821; Total: 27.507507;
+[R15] Times: IO: 0.000000; Setup: 14.491650; Compute: 13.018989; MPI: 11.388395; Total: 27.510641;
+[R14] Times: IO: 0.000000; Setup: 14.490982; Compute: 13.022977; MPI: 11.449112; Total: 27.513959;
+[R13] Times: IO: 0.000000; Setup: 14.493938; Compute: 13.024595; MPI: 9.587018; Total: 27.518533;
+[R12] Times: IO: 0.000000; Setup: 14.493931; Compute: 13.028745; MPI: 9.751529; Total: 27.522677;
+[R11] Times: IO: 0.000000; Setup: 14.493896; Compute: 13.032922; MPI: 9.762083; Total: 27.526819;
+[R10] Times: IO: 0.000000; Setup: 14.493931; Compute: 13.037178; MPI: 9.974867; Total: 27.531111;
+[R09] Times: IO: 0.000000; Setup: 14.496350; Compute: 13.038924; MPI: 10.330524; Total: 27.535275;
+[R08] Times: IO: 0.000000; Setup: 14.496190; Compute: 13.043523; MPI: 10.426906; Total: 27.539713;
+[R07] Times: IO: 0.000000; Setup: 14.496111; Compute: 13.048384; MPI: 10.558352; Total: 27.544496;
+[R06] Times: IO: 0.000000; Setup: 14.496347; Compute: 13.052912; MPI: 10.754483; Total: 27.549260;
+[R05] Times: IO: 0.000000; Setup: 14.496152; Compute: 13.057615; MPI: 11.054039; Total: 27.553769;
+[R04] Times: IO: 0.000000; Setup: 14.493666; Compute: 13.064841; MPI: 12.209926; Total: 27.558507;
+[R03] Times: IO: 0.000000; Setup: 14.493698; Compute: 13.069673; MPI: 12.320880; Total: 27.563371;
+[R02] Times: IO: 0.000000; Setup: 14.491395; Compute: 13.076751; MPI: 12.462732; Total: 27.568147;
+[R01] Times: IO: 0.000000; Setup: 14.484008; Compute: 13.089249; MPI: 12.700239; Total: 27.573258;
+[R00] Times: IO: 14.038100; Setup: 0.198488; Compute: 13.068909; MPI: 13.001599; Total: 27.584609;
+Sat Dec 15 16:05:46 CET 2018
+
+Tests ended.
